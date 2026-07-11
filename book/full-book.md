@@ -36,16 +36,16 @@ RBI's own `.bank.in` announcements — about the mandate, the timeline, the secu
 
 | Coverage Type | RBI PR (`.bank.in` mandate) | Independent Investigation (`.bank.in` vulnerabilities) |
 | --- | --- | --- |
-| Economic Times | ✅ Front-page / multiple articles | ❌ Silence |
-| Business Standard | ✅ Multiple articles | ❌ Silence |
-| The Hindu | ✅ Covered | ❌ Silence |
-| Indian Express | ✅ Covered | ❌ Silence |
-| Times of India | ✅ Covered | ❌ Silence |
-| Moneycontrol | ✅ Covered | ❌ Silence |
-| Financial Express | ✅ Covered | ❌ Silence |
-| Medianama | ✅ Covered | ✅ Covered |
-| YourStory | ✅ Covered | ❌ Silence |
-| Inc42 | ✅ Covered | ❌ Silence |
+| Economic Times | [✓] Front-page / multiple articles | [✗] Silence |
+| Business Standard | [✓] Multiple articles | [✗] Silence |
+| The Hindu | [✓] Covered | [✗] Silence |
+| Indian Express | [✓] Covered | [✗] Silence |
+| Times of India | [✓] Covered | [✗] Silence |
+| Moneycontrol | [✓] Covered | [✗] Silence |
+| Financial Express | [✓] Covered | [✗] Silence |
+| Medianama | [✓] Covered | [✓] Covered |
+| YourStory | [✓] Covered | [✗] Silence |
+| Inc42 | [✓] Covered | [✗] Silence |
 
 **Zero** of the publications that covered RBI's `.bank.in` PR chose to cover the security investigation into the same portal.
 
@@ -196,8 +196,8 @@ We hope it makes that silence uncomfortable.
 **RTI applicability**:
 | Criterion | Status |
 |-----------|--------|
-| Created by Constitution/Parliament Act? | ❌ No — registered as a Society |
-| Funded substantially by Govt? | ⚠️ RBI-owned, but RBI is a statutory body, not a govt dept |
+| Created by Constitution/Parliament Act? | [✗] No — registered as a Society |
+| Funded substantially by Govt? | [!] RBI-owned, but RBI is a statutory body, not a govt dept |
 | "Public authority" u/s 2(h) RTI Act? | **Disputed/Unclear** — societies controlled by RBI may or may not qualify |
 | Past RTI responses from IDRBT? | Not found in search results |
 
@@ -224,6 +224,7 @@ IFTAS (Indian Financial Technology and Allied Services) is a **key contextual pl
 
 ## 7. Corporate Network Map
 
+\newpage
 ```
                ┌──────────────────┐
                │   Reserve Bank   │
@@ -258,6 +259,7 @@ IFTAS (Indian Financial Technology and Allied Services) is a **key contextual pl
   │ (Bank-owned)   │  Cooperative bank tech procurement
   └────────────────┘
 ```
+\pagebreak
 
 ---
 
@@ -265,12 +267,12 @@ IFTAS (Indian Financial Technology and Allied Services) is a **key contextual pl
 
 | Question | Status | How to verify |
 |----------|--------|--------------|
-| Was IKCON contract tendered? | ❌ No evidence of tender found | Check IDRBT tender pages; compare with GFR requirements |
-| Did byelaws change before IKCON award? | 🔴 Unverified | Request IDRBT Governing Council minutes (RBI RTI) |
-| What was the contract value? | 🔴 Unknown | Requires procurement records |
-| Deepak Kumar's specific role in award? | 🔴 Circumstantial | He is Director — final approving authority for all IDRBT procurement |
-| IFTAS→IKCON move timing? | ⚠️ LinkedIn forensic incomplete | Full ZoomInfo/LinkedIn scrape of Mahesh Jarati's career timeline |
-| Other IKCON-IDRBT contracts? | 🔴 Unknown | Search IDRBT published tenders; GSTIN-based tracking |
+| Was IKCON contract tendered? | [✗] No evidence of tender found | Check IDRBT tender pages; compare with GFR requirements |
+| Did byelaws change before IKCON award? | [●] Unverified | Request IDRBT Governing Council minutes (RBI RTI) |
+| What was the contract value? | [●] Unknown | Requires procurement records |
+| Deepak Kumar's specific role in award? | [●] Circumstantial | He is Director — final approving authority for all IDRBT procurement |
+| IFTAS→IKCON move timing? | [!] LinkedIn forensic incomplete | Full ZoomInfo/LinkedIn scrape of Mahesh Jarati's career timeline |
+| Other IKCON-IDRBT contracts? | [●] Unknown | Search IDRBT published tenders; GSTIN-based tracking |
 
 ---
 
@@ -278,12 +280,12 @@ IFTAS (Indian Financial Technology and Allied Services) is a **key contextual pl
 
 | Claim | Grade | Basis |
 |-------|-------|-------|
-| Mahesh Jarati at IKCON | ✅ **Confirmed** | IKCON leadership page; ZoomInfo |
-| Mahesh Jarati ex-IFTAS | ⚠️ **High confidence** | Source + ZoomInfo cross-refs; IFTAS contextual fit |
-| No tender for IKCON contract | ✅ **Confirmed in report** | CashlessConsumer .bank.in report documents this |
-| Deepak Kumar = approving authority | ✅ **Confirmed** | IDRBT Director has procurement authority |
-| Byelaw amendment for vendor rates | 🔴 **Allegation only** | Source claim; no public document found yet |
-| Rate rigging / better rates | 🔴 **Unverified** | Need pre/post contract pricing data |
+| Mahesh Jarati at IKCON | [✓] **Confirmed** | IKCON leadership page; ZoomInfo |
+| Mahesh Jarati ex-IFTAS | [!] **High confidence** | Source + ZoomInfo cross-refs; IFTAS contextual fit |
+| No tender for IKCON contract | [✓] **Confirmed in report** | CashlessConsumer .bank.in report documents this |
+| Deepak Kumar = approving authority | [✓] **Confirmed** | IDRBT Director has procurement authority |
+| Byelaw amendment for vendor rates | [●] **Allegation only** | Source claim; no public document found yet |
+| Rate rigging / better rates | [●] **Unverified** | Need pre/post contract pricing data |
 
 ---
 
@@ -448,10 +450,10 @@ The **unverified allegation** (from source tip, documented in `DeepakKumar.md`) 
 - Enable IKCON — which wouldn't qualify under normal competitive bidding — to get the contract at better-than-market rates [^8]
 
 **What can be confirmed**:
-- ✅ IKCON is a private company on IKCON's leadership page
-- ✅ No tender exists for the .bank.in portal (confirmed in CashlessConsumer report)
-- ✅ Deepak Kumar, as Director, is the final approving authority for all IDRBT procurement
-- 🔴 The byelaw amendment itself remains unverified — requires IDRBT Governing Council minutes (which are not public)
+- [✓] IKCON is a private company on IKCON's leadership page
+- [✓] No tender exists for the .bank.in portal (confirmed in CashlessConsumer report)
+- [✓] Deepak Kumar, as Director, is the final approving authority for all IDRBT procurement
+- [●] The byelaw amendment itself remains unverified — requires IDRBT Governing Council minutes (which are not public)
 
 ### The Nikhila Interregnum
 
@@ -525,14 +527,14 @@ Each subsidiary uses a different legal structure that minimizes external scrutin
 
 | Entity | Legal Form | RTI Applicable? | Parliamentary Oversight? |
 |---|---|---|---|
-| RBI | Statutory corporation | ✅ Yes (limited) | ✅ Via Finance Ministry |
-| DICGC | Statutory corporation | ✅ Yes | ✅ |
-| BRBNMPL | Pvt Ltd company | ⚠️ Disputed | ❌ |
-| ReBIT | Pvt Ltd company | ⚠️ Disputed | ❌ |
-| IFTAS | Section 8 company | ⚠️ Disputed | ❌ |
-| RBIH | Pvt Ltd company | ⚠️ Disputed | ❌ |
-| IDRBT | Registered Society | **🔴 Disputed/No** | ❌ |
-| NPCI | Section 8 company | ❌ (except Aadhaar matters) | ❌ |
+| RBI | Statutory corporation | [✓] Yes (limited) | [✓] Via Finance Ministry |
+| DICGC | Statutory corporation | [✓] Yes | [✓] |
+| BRBNMPL | Pvt Ltd company | [!] Disputed | [✗] |
+| ReBIT | Pvt Ltd company | [!] Disputed | [✗] |
+| IFTAS | Section 8 company | [!] Disputed | [✗] |
+| RBIH | Pvt Ltd company | [!] Disputed | [✗] |
+| IDRBT | Registered Society | **[●] Disputed/No** | [✗] |
+| NPCI | Section 8 company | [✗] (except Aadhaar matters) | [✗] |
 
 IDRBT as a "society" is the most opaque structure — neither a company (no MCA filings), nor a statutory body (no parliamentary accountability), nor a government department (no RTI by default). Yet it manages **the digital certificate infrastructure for India's entire banking system** and **the exclusive national banking domain registry**.
 
@@ -670,11 +672,11 @@ This is a textbook **revolving-door conflict pattern**. The byelaw amendment all
 - Enable IKCON to qualify without competitive tender
 
 **What is confirmed**:
-- ✅ No tender was published for the `.bank.in` portal
-- ✅ IDRBT's IT Vendor Management Manual (ITVM_Final.pdf) [^12] specifies competitive bidding requirements above certain thresholds
-- ✅ Deepak Kumar, as Director, is the approving authority for procurement
-- ✅ The Governing Council (including Deepak Kumar) sets procurement policy [^5]
-- ✅ IDRBT held its 80th Governing Council meeting on 21 June 2024 — after Deepak Kumar's appointment — where procurement policy could have been amended [IDRBT 2023-2024 page]
+- [✓] No tender was published for the `.bank.in` portal
+- [✓] IDRBT's IT Vendor Management Manual (ITVM_Final.pdf) [^12] specifies competitive bidding requirements above certain thresholds
+- [✓] Deepak Kumar, as Director, is the approving authority for procurement
+- [✓] The Governing Council (including Deepak Kumar) sets procurement policy [^5]
+- [✓] IDRBT held its 80th Governing Council meeting on 21 June 2024 — after Deepak Kumar's appointment — where procurement policy could have been amended [IDRBT 2023-2024 page]
 
 ### 1.5 Safeguards That Failed
 
@@ -691,12 +693,12 @@ This is a textbook **revolving-door conflict pattern**. The byelaw amendment all
 
 | Claim | Grade | Evidence |
 |-------|-------|----------|
-| Mahesh Jarati at IKCON | ✅ **Confirmed** | IKCON leadership page [^4]; ZoomInfo |
-| Mahesh Jarati ex-IFTAS | ⚠️ **High confidence** | Source claim + ZoomInfo cross-refs; IFTAS contextual fit [Annex A] |
-| No tender for IKCON contract | ✅ **Confirmed** | CashlessConsumer .bank.in report [^2]; tender page absence [^11] |
-| Deepak Kumar = approving authority | ✅ **Confirmed** | IDRBT Director has procurement authority [^3] |
-| Byelaw amendment for vendor rates | 🔴 **Allegation only** | Source claim; no public document found yet |
-| Rate rigging / better rates | 🔴 **Unverified** | Requires pre/post contract pricing data |
+| Mahesh Jarati at IKCON | [✓] **Confirmed** | IKCON leadership page [^4]; ZoomInfo |
+| Mahesh Jarati ex-IFTAS | [!] **High confidence** | Source claim + ZoomInfo cross-refs; IFTAS contextual fit [Annex A] |
+| No tender for IKCON contract | [✓] **Confirmed** | CashlessConsumer .bank.in report [^2]; tender page absence [^11] |
+| Deepak Kumar = approving authority | [✓] **Confirmed** | IDRBT Director has procurement authority [^3] |
+| Byelaw amendment for vendor rates | [●] **Allegation only** | Source claim; no public document found yet |
+| Rate rigging / better rates | [●] **Unverified** | Requires pre/post contract pricing data |
 
 ---
 
@@ -731,6 +733,7 @@ The 1-day gap between their tenures proves the appointment was **pre-determined*
 
 ### 2.3 The Revolving Door Network Map
 
+\newpage
 ```
                       ┌──────────────────────┐
                       │    RBI (Central)     │
@@ -763,6 +766,7 @@ The 1-day gap between their tenures proves the appointment was **pre-determined*
    │ a member)      │  │                  │  │                  │
    └────────────────┘  └──────────────────┘  └──────────────────┘
 ```
+\pagebreak
 
 Deepak Kumar simultaneously:
 - **Oversees IDRBT** (as Director)
@@ -805,14 +809,14 @@ RBI currently operates or controls at least **seven technology/payments entities
 
 | Entity | Year | Legal Form | Mandate | Owned By | Public RTI? | CAG Audit? |
 |--------|------|------------|---------|----------|-------------|------------|
-| **IDRBT** | 1996 | Society (1860 Act) | Banking tech research + .bank.in registry | RBI (fully) | ❌ Contested | ❌ |
-| **IFTAS** | 2015 → acquired 2019 | Section 8 Company | Shared tech for cooperative banks | RBI (now) | ❌ | ❌ |
-| **ReBIT** | 2016 | Pvt Ltd | IT & cybersecurity for RBI and regulated entities | RBI (fully) [^15] | ❌ | ❌ |
-| **NPCI** | 2008 | Section 8 Company | Retail payments infrastructure | 65 member banks (RBI as regulator) | ❌ | ❌ |
-| **NPCI Intl (NIPL)** | 2020 | Pvt Ltd | UPI/RuPay global expansion | NPCI (fully) | ❌ | ❌ |
-| **RBIH** | 2022 | Section 8 Company | Fintech innovation, incubation | RBI (fully) | ❌ | ❌ |
-| **RBI IT Dept** | — | Internal | Oversight of RBI's own IT | RBI | ✅ (via RBI) | ⚠️ (RBI internal) |
-| **RBI Fintech Dept** | 2022 | Internal | Fintech regulation, sandbox | RBI | ✅ (via RBI) | ✅ (via RBI audit) |
+| **IDRBT** | 1996 | Society (1860 Act) | Banking tech research + .bank.in registry | RBI (fully) | [✗] Contested | [✗] |
+| **IFTAS** | 2015 → acquired 2019 | Section 8 Company | Shared tech for cooperative banks | RBI (now) | [✗] | [✗] |
+| **ReBIT** | 2016 | Pvt Ltd | IT & cybersecurity for RBI and regulated entities | RBI (fully) [^15] | [✗] | [✗] |
+| **NPCI** | 2008 | Section 8 Company | Retail payments infrastructure | 65 member banks (RBI as regulator) | [✗] | [✗] |
+| **NPCI Intl (NIPL)** | 2020 | Pvt Ltd | UPI/RuPay global expansion | NPCI (fully) | [✗] | [✗] |
+| **RBIH** | 2022 | Section 8 Company | Fintech innovation, incubation | RBI (fully) | [✗] | [✗] |
+| **RBI IT Dept** | — | Internal | Oversight of RBI's own IT | RBI | [✓] (via RBI) | [!] (RBI internal) |
+| **RBI Fintech Dept** | 2022 | Internal | Fintech regulation, sandbox | RBI | [✓] (via RBI) | [✓] (via RBI audit) |
 
 **Official vs Unofficial**: RBI's own website (https://www.rbi.org.in/commonman/English/Scripts/Organisation.aspx) lists only **DICGC** as a fully-owned subsidiary. IDRBT, ReBIT, IFTAS, and RBIH are **not listed** on RBI's official organisation page. [^13] This means they exist in a regulatory grey zone — acknowledged through press releases and board appointments, but not formally disclosed as RBI subsidiaries in the central bank's own organisational documentation.
 
@@ -878,14 +882,14 @@ NPCI operates India's most critical payments infrastructure (UPI, RuPay, IMPS, N
 
 | Dimension | IDRBT | IFTAS | ReBIT | RBIH | NPCI |
 |-----------|-------|-------|-------|------|------|
-| Independent board majority | ❌ | ❌ | ❌ | ⚠️ Partial | ⚠️ Member banks |
-| Public RTI access | ❌ | ❌ | ❌ | ❌ | ❌ |
-| CAG audit | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Competitive procurement | ❌ (IKCON) | Unknown | Unknown | Unknown | ⚠️ MDR-based |
-| Published board minutes | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Conflict of interest register | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Term limits / cooling-off | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Independent security audit | ❌ (proven) | Unknown | Unknown | Unknown | ⚠️ Periodic |
+| Independent board majority | [✗] | [✗] | [✗] | [!] Partial | [!] Member banks |
+| Public RTI access | [✗] | [✗] | [✗] | [✗] | [✗] |
+| CAG audit | [✗] | [✗] | [✗] | [✗] | [✗] |
+| Competitive procurement | [✗] (IKCON) | Unknown | Unknown | Unknown | [!] MDR-based |
+| Published board minutes | [✗] | [✗] | [✗] | [✗] | [✗] |
+| Conflict of interest register | [✗] | [✗] | [✗] | [✗] | [✗] |
+| Term limits / cooling-off | [✗] | [✗] | [✗] | [✗] | [✗] |
+| Independent security audit | [✗] (proven) | Unknown | Unknown | Unknown | [!] Periodic |
 
 ---
 
@@ -1163,15 +1167,15 @@ For an entity operating tier-1 national financial infrastructure (RTGS/NEFT mess
 
 | Dimension | IFTAS Rating | Explanation |
 |---|---|---|
-| **Transparency** | ❌ Poor | MCA filings exist but not proactively published; no public board minutes; no public procurement records |
-| **Board independence** | ❌ None | All directors are RBI network insiders or bank/PSU veterans with RBI relationships |
-| **External oversight** | ❌ None | No CAG, no RTI, no parliamentary scrutiny |
-| **Audit quality** | ⚠️ Weak | Private audit by Chhajed & Doshi; no statutory audit mandate |
-| **Procurement integrity** | ❌ Unverifiable | No public tenders published; cannot verify competitive process |
-| **Conflict management** | ❌ None | Same directors serve across all RBI entities; no cooling-off mechanism |
-| **Financial disclosure** | ⚠️ Minimal | Revenue/profit data from MCA filings; no detailed notes or segment reporting |
-| **Public accountability** | ❌ None | Not a public authority; no obligation to answer public questions |
-| **Institutional stability** | ❌ Precarious | Entity exists at RBI's pleasure; assets were built, transferred, clawed back, all without institutional guarantees |
+| **Transparency** | [✗] Poor | MCA filings exist but not proactively published; no public board minutes; no public procurement records |
+| **Board independence** | [✗] None | All directors are RBI network insiders or bank/PSU veterans with RBI relationships |
+| **External oversight** | [✗] None | No CAG, no RTI, no parliamentary scrutiny |
+| **Audit quality** | [!] Weak | Private audit by Chhajed & Doshi; no statutory audit mandate |
+| **Procurement integrity** | [✗] Unverifiable | No public tenders published; cannot verify competitive process |
+| **Conflict management** | [✗] None | Same directors serve across all RBI entities; no cooling-off mechanism |
+| **Financial disclosure** | [!] Minimal | Revenue/profit data from MCA filings; no detailed notes or segment reporting |
+| **Public accountability** | [✗] None | Not a public authority; no obligation to answer public questions |
+| **Institutional stability** | [✗] Precarious | Entity exists at RBI's pleasure; assets were built, transferred, clawed back, all without institutional guarantees |
 
 ---
 
@@ -1261,31 +1265,31 @@ We evaluate each entity across nine distinct governance axes:
 
 | Dimension | Status | Mechanism | Score |
 |-----------|--------|-----------|-------|
-| **Legal Structure** | **Society** under Societies Registration Act, 1860 | Colonial-era statute designed for literary/scientific clubs, not critical national infrastructure | ❌ Opaque |
-| **RTI Coverage** | **Disputed/exempted** — claims RTI does not apply as it's not a "public authority" under Section 2(h) | CIC rulings have brought similar RBI-controlled societies under RTI, but IDRBT resists | ❌ Denied |
-| **CAG Audit** | **Not applicable** — CAG can audit RBI but not its societies | No statutory audit mechanism; annual reports are internal | ❌ Absent |
-| **Board Independence** | **Zero independent directors** — Governing Council is all RBI/network insiders chaired by former RBI Deputy Governor N.S. Vishwanathan | Governing Council includes: IDRBT Director (Deepak Kumar — oversees himself), NPCI nominees, former RBI officials | ❌ Captive |
-| **MCA/ROC Transparency** | **Not applicable** — Societies do not file with MCA | No DIN numbers, no annual returns, no public financials | ❌ None |
-| **Procurement Governance** | **Internal Purchase Manual** — not GFR; thresholds can be amended by Governing Council without external approval | Byelaw amendment allegation (see Chapter 1) — single-source thresholds raised to enable IKCON award | ⚠️ Weak |
-| **Parliamentary Oversight** | **Indirect only** — questions can be routed through RBI's own oversight in Parliament | RBI answers Finance Ministry questions; IDRBT-specific questions may be directed | ⚠️ Indirect |
-| **Conflict-of-Interest Regime** | **None public** — no published register; multiple directorships held simultaneously without disclosure | Deepak Kumar simultaneously on IDRBT GC, IFTAS board, ReBIT board, RBIH council, NPCI board, IOB board | ❌ Absent |
-| **Security & Disclosure** | **No security.txt, no VDP, no published audit** — proven by 33+ unauthenticated API endpoints and 5,576 exposed records | Live-for-years portal with no security.txt or disclosure channel | ❌ Absent |
+| **Legal Structure** | **Society** under Societies Registration Act, 1860 | Colonial-era statute designed for literary/scientific clubs, not critical national infrastructure | [✗] Opaque |
+| **RTI Coverage** | **Disputed/exempted** — claims RTI does not apply as it's not a "public authority" under Section 2(h) | CIC rulings have brought similar RBI-controlled societies under RTI, but IDRBT resists | [✗] Denied |
+| **CAG Audit** | **Not applicable** — CAG can audit RBI but not its societies | No statutory audit mechanism; annual reports are internal | [✗] Absent |
+| **Board Independence** | **Zero independent directors** — Governing Council is all RBI/network insiders chaired by former RBI Deputy Governor N.S. Vishwanathan | Governing Council includes: IDRBT Director (Deepak Kumar — oversees himself), NPCI nominees, former RBI officials | [✗] Captive |
+| **MCA/ROC Transparency** | **Not applicable** — Societies do not file with MCA | No DIN numbers, no annual returns, no public financials | [✗] None |
+| **Procurement Governance** | **Internal Purchase Manual** — not GFR; thresholds can be amended by Governing Council without external approval | Byelaw amendment allegation (see Chapter 1) — single-source thresholds raised to enable IKCON award | [!] Weak |
+| **Parliamentary Oversight** | **Indirect only** — questions can be routed through RBI's own oversight in Parliament | RBI answers Finance Ministry questions; IDRBT-specific questions may be directed | [!] Indirect |
+| **Conflict-of-Interest Regime** | **None public** — no published register; multiple directorships held simultaneously without disclosure | Deepak Kumar simultaneously on IDRBT GC, IFTAS board, ReBIT board, RBIH council, NPCI board, IOB board | [✗] Absent |
+| **Security & Disclosure** | **No security.txt, no VDP, no published audit** — proven by 33+ unauthenticated API endpoints and 5,576 exposed records | Live-for-years portal with no security.txt or disclosure channel | [✗] Absent |
 
-**Overall Score**: 0.5 / 9 ✅ functioning — Score worsens further if examined by materiality of hidden dimensions.
+**Overall Score**: 0.5 / 9 [✓] functioning — Score worsens further if examined by materiality of hidden dimensions.
 
 ### 2.2 IFTAS — Indian Financial Technology and Allied Services
 
 | Dimension | Status | Mechanism | Score |
 |-----------|--------|-----------|-------|
-| **Legal Structure** | **Section 8 Company** (Not-for-Profit) | Filed under Companies Act, so MCA filings are public — but no statutory oversight beyond ROC | ⚠️ Partial |
-| **RTI Coverage** | **Does not apply** — Section 8 company, not a government entity; claimed as "owned by member banks" (though RBI is the sole effective controller post-2019) | RTI Act Section 2(h) does not cover companies not substantially funded by government | ❌ Denied |
-| **CAG Audit** | **Not applicable** — no statutory mandate for Section 8 companies | RBI acquired IFTAS in 2019 but did not bring it under CAG purview | ❌ Absent |
-| **Board Independence** | **All RBI/network appointees** — chair is RBI ED, members are current/former RBI officials | Deepak Kumar sits on IFTAS board while also being IDRBT Director — the entity that gave away its infrastructure to IFTAS | ❌ Captive |
-| **MCA/ROC Transparency** | **Partial** — financials are filed (FY24 revenue ~₹455 crore, profit ~₹5.9 crore) | Annual returns available on Tofler/Tracxn/CompanyCheck but board minutes are not public | ⚠️ Partial |
-| **Procurement Governance** | **Internal policies** — not subject to GFR | Cooperative bank technology procurement decisions made internally | ⚠️ Weak |
-| **Parliamentary Oversight** | **None direct** — Section 8 company, no parliamentary accountability | Questions about IFTAS can only reach Parliament if routed through RBI's ownership disclosure | ❌ Absent |
-| **Conflict-of-Interest Regime** | **None public** — MCA filings show directors but no register of interests | Cross-directorships between IFTAS, IDRBT, ReBIT not disclosed as conflicts | ❌ Absent |
-| **Security & Disclosure** | **Unknown** — no public VAPT reports, no breach disclosures | IFTAS's systems (INFINET, SFMS) are not independently audited for security on a published schedule | ⚠️ Unknown |
+| **Legal Structure** | **Section 8 Company** (Not-for-Profit) | Filed under Companies Act, so MCA filings are public — but no statutory oversight beyond ROC | [!] Partial |
+| **RTI Coverage** | **Does not apply** — Section 8 company, not a government entity; claimed as "owned by member banks" (though RBI is the sole effective controller post-2019) | RTI Act Section 2(h) does not cover companies not substantially funded by government | [✗] Denied |
+| **CAG Audit** | **Not applicable** — no statutory mandate for Section 8 companies | RBI acquired IFTAS in 2019 but did not bring it under CAG purview | [✗] Absent |
+| **Board Independence** | **All RBI/network appointees** — chair is RBI ED, members are current/former RBI officials | Deepak Kumar sits on IFTAS board while also being IDRBT Director — the entity that gave away its infrastructure to IFTAS | [✗] Captive |
+| **MCA/ROC Transparency** | **Partial** — financials are filed (FY24 revenue ~₹455 crore, profit ~₹5.9 crore) | Annual returns available on Tofler/Tracxn/CompanyCheck but board minutes are not public | [!] Partial |
+| **Procurement Governance** | **Internal policies** — not subject to GFR | Cooperative bank technology procurement decisions made internally | [!] Weak |
+| **Parliamentary Oversight** | **None direct** — Section 8 company, no parliamentary accountability | Questions about IFTAS can only reach Parliament if routed through RBI's ownership disclosure | [✗] Absent |
+| **Conflict-of-Interest Regime** | **None public** — MCA filings show directors but no register of interests | Cross-directorships between IFTAS, IDRBT, ReBIT not disclosed as conflicts | [✗] Absent |
+| **Security & Disclosure** | **Unknown** — no public VAPT reports, no breach disclosures | IFTAS's systems (INFINET, SFMS) are not independently audited for security on a published schedule | [!] Unknown |
 
 **Overall Score**: 2 / 9
 
@@ -1293,15 +1297,15 @@ We evaluate each entity across nine distinct governance axes:
 
 | Dimension | Status | Mechanism | Score |
 |-----------|--------|-----------|-------|
-| **Legal Structure** | **Private Limited Company** | Filed under Companies Act; MCA filings are technically public but many details are not | ⚠️ Partial |
-| **RTI Coverage** | **Does not apply** — Pvt Ltd company, no RTI | RBI's wholly owned cybersecurity subsidiary cannot be questioned by citizens | ❌ Denied |
-| **CAG Audit** | **Not applicable** — RBI's 100% subsidiary but not a government company under CAG Act | Pvt Ltd status exempts it from CAG | ❌ Absent |
-| **Board Independence** | **RBI-appointed directors** — no public list of independent vs. nominee directors | Board structure not published on website; ROC filings show RBI nominees | ❌ Captive |
-| **MCA/ROC Transparency** | **Low** — financials filed but board composition, remuneration, related-party transactions are limited | Pvt Ltd has fewer disclosure requirements than listed companies | ⚠️ Low |
-| **Procurement Governance** | **Internal** — ReBIT handles IT procurement for RBI systems | No public procurement policy or tender archive | ❌ Opaque |
-| **Parliamentary Oversight** | **None direct** | RBI may answer questions about "use of ReBIT" but ReBIT itself is not accountable | ❌ Absent |
-| **Conflict-of-Interest Regime** | **None public** | Deepak Kumar on ReBIT board while also being IDRBT Director — potential conflict between infrastructure builder and security auditor | ❌ Absent |
-| **Security & Disclosure** | **Unknown** — ReBIT's own systems vulnerability posture is not public | Irony: the entity responsible for cybersecurity of RBI systems is itself opaque on security governance | ⚠️ Unknown |
+| **Legal Structure** | **Private Limited Company** | Filed under Companies Act; MCA filings are technically public but many details are not | [!] Partial |
+| **RTI Coverage** | **Does not apply** — Pvt Ltd company, no RTI | RBI's wholly owned cybersecurity subsidiary cannot be questioned by citizens | [✗] Denied |
+| **CAG Audit** | **Not applicable** — RBI's 100% subsidiary but not a government company under CAG Act | Pvt Ltd status exempts it from CAG | [✗] Absent |
+| **Board Independence** | **RBI-appointed directors** — no public list of independent vs. nominee directors | Board structure not published on website; ROC filings show RBI nominees | [✗] Captive |
+| **MCA/ROC Transparency** | **Low** — financials filed but board composition, remuneration, related-party transactions are limited | Pvt Ltd has fewer disclosure requirements than listed companies | [!] Low |
+| **Procurement Governance** | **Internal** — ReBIT handles IT procurement for RBI systems | No public procurement policy or tender archive | [✗] Opaque |
+| **Parliamentary Oversight** | **None direct** | RBI may answer questions about "use of ReBIT" but ReBIT itself is not accountable | [✗] Absent |
+| **Conflict-of-Interest Regime** | **None public** | Deepak Kumar on ReBIT board while also being IDRBT Director — potential conflict between infrastructure builder and security auditor | [✗] Absent |
+| **Security & Disclosure** | **Unknown** — ReBIT's own systems vulnerability posture is not public | Irony: the entity responsible for cybersecurity of RBI systems is itself opaque on security governance | [!] Unknown |
 
 **Overall Score**: 1.5 / 9
 
@@ -1309,15 +1313,15 @@ We evaluate each entity across nine distinct governance axes:
 
 | Dimension | Status | Mechanism | Score |
 |-----------|--------|-----------|-------|
-| **Legal Structure** | **Section 8 Company** | Incorporated under Companies Act, 2013 | ⚠️ Partial |
-| **RTI Coverage** | **Does not apply** | Section 8 company with no government funding designation | ❌ Denied |
-| **CAG Audit** | **Not applicable** | No statutory mandate | ❌ Absent |
-| **Board Independence** | **Mixed** — independent chair (Kris Gopalakrishnan, Infosys co-founder) but board includes RBI EDs and IDRBT officials | RBIH Governing Council has more external representation than other entities, but operational board may be different | ⚠️ Mixed |
-| **MCA/ROC Transparency** | **Partial** — Section 8 company filings are public | Financials trackable; board composition on MCA | ⚠️ Partial |
-| **Procurement Governance** | **Unknown** | No published procurement policy | ❌ Opaque |
-| **Parliamentary Oversight** | **None** | Unlikely to be considered a government entity | ❌ Absent |
-| **Conflict-of-Interest Regime** | **None public** | No published register | ❌ Absent |
-| **Security & Disclosure** | **Unknown** | No public posture | ⚠️ Unknown |
+| **Legal Structure** | **Section 8 Company** | Incorporated under Companies Act, 2013 | [!] Partial |
+| **RTI Coverage** | **Does not apply** | Section 8 company with no government funding designation | [✗] Denied |
+| **CAG Audit** | **Not applicable** | No statutory mandate | [✗] Absent |
+| **Board Independence** | **Mixed** — independent chair (Kris Gopalakrishnan, Infosys co-founder) but board includes RBI EDs and IDRBT officials | RBIH Governing Council has more external representation than other entities, but operational board may be different | [!] Mixed |
+| **MCA/ROC Transparency** | **Partial** — Section 8 company filings are public | Financials trackable; board composition on MCA | [!] Partial |
+| **Procurement Governance** | **Unknown** | No published procurement policy | [✗] Opaque |
+| **Parliamentary Oversight** | **None** | Unlikely to be considered a government entity | [✗] Absent |
+| **Conflict-of-Interest Regime** | **None public** | No published register | [✗] Absent |
+| **Security & Disclosure** | **Unknown** | No public posture | [!] Unknown |
 
 **Overall Score**: 2.5 / 9 — Still weak but marginally better due to independent chair.
 
@@ -1325,15 +1329,15 @@ We evaluate each entity across nine distinct governance axes:
 
 | Dimension | Status | Mechanism | Score |
 |-----------|--------|-----------|-------|
-| **Legal Structure** | **Section 8 Company** (pending conversion to for-profit) | 65 member banks; Section 8 not-for-profit status debated since 2023 | ⚠️ Transitioning |
-| **RTI Coverage** | **Does not apply** — NPCI is not a government entity per CIC rulings | Multiple RTI applications rejected on grounds NPCI is not a "public authority" | ❌ Denied |
-| **CAG Audit** | **Not applicable** | Despite managing India's most critical payments infrastructure (UPI, RuPay, IMPS, NACH, BBPS) | ❌ Absent |
-| **Board Independence** | **Member-bank nominees** — board elected by 65 member banks, but RBI holds significant influence | Deepak Kumar also on NPCI board — cross-directorship between operator and regulator's technology arm | ⚠️ Member-controlled |
-| **MCA/ROC Transparency** | **Section 8 filings are public** — financials available | FY25 surplus ₹1,552 crore publicly reported | ✅ Public |
-| **Procurement Governance** | **Internal** — MDR-based revenue model, not GFR | Technology procurement for UPI/RuPay infrastructure is internal | ⚠️ Internal |
-| **Parliamentary Oversight** | **None direct** — Parliament can ask RBI about NPCI's regulatory oversight but not NPCI directly | As payments infrastructure becomes more critical, this gap grows | ❌ Absent |
-| **Conflict-of-Interest Regime** | **None public** — no published register of directors' cross-holdings | With for-profit conversion, conflicts will become material | ❌ Absent |
-| **Security & Disclosure** | **Periodic VAPT** — UPI/RuPay security posture is tested but details not public | No public transparency on vulnerability management | ⚠️ Partial |
+| **Legal Structure** | **Section 8 Company** (pending conversion to for-profit) | 65 member banks; Section 8 not-for-profit status debated since 2023 | [!] Transitioning |
+| **RTI Coverage** | **Does not apply** — NPCI is not a government entity per CIC rulings | Multiple RTI applications rejected on grounds NPCI is not a "public authority" | [✗] Denied |
+| **CAG Audit** | **Not applicable** | Despite managing India's most critical payments infrastructure (UPI, RuPay, IMPS, NACH, BBPS) | [✗] Absent |
+| **Board Independence** | **Member-bank nominees** — board elected by 65 member banks, but RBI holds significant influence | Deepak Kumar also on NPCI board — cross-directorship between operator and regulator's technology arm | [!] Member-controlled |
+| **MCA/ROC Transparency** | **Section 8 filings are public** — financials available | FY25 surplus ₹1,552 crore publicly reported | [✓] Public |
+| **Procurement Governance** | **Internal** — MDR-based revenue model, not GFR | Technology procurement for UPI/RuPay infrastructure is internal | [!] Internal |
+| **Parliamentary Oversight** | **None direct** — Parliament can ask RBI about NPCI's regulatory oversight but not NPCI directly | As payments infrastructure becomes more critical, this gap grows | [✗] Absent |
+| **Conflict-of-Interest Regime** | **None public** — no published register of directors' cross-holdings | With for-profit conversion, conflicts will become material | [✗] Absent |
+| **Security & Disclosure** | **Periodic VAPT** — UPI/RuPay security posture is tested but details not public | No public transparency on vulnerability management | [!] Partial |
 
 **Overall Score**: 3 / 9 — Best of the group but still fails 6 of 9 dimensions.
 
@@ -1341,15 +1345,15 @@ We evaluate each entity across nine distinct governance axes:
 
 | Dimension | Status | Mechanism | Score |
 |-----------|--------|-----------|-------|
-| **Legal Structure** | **Internal RBI department** | Part of RBI's own organisational structure | ⚠️ Internal |
-| **RTI Coverage** | **✅ Applies** — RBI is a public authority under RTI Act | RTI can be filed for IT Department decisions, procurement, policies | ✅ Covers |
-| **CAG Audit** | **✅ Applies** — RBI's accounts, including IT Dept spending, are CAG-audited | CAG audits RBI annually and reports to Parliament | ✅ Covers |
-| **Board Independence** | **N/A** — internal department, no board | Reports through RBI's hierarchy | ⚠️ Internal |
+| **Legal Structure** | **Internal RBI department** | Part of RBI's own organisational structure | [!] Internal |
+| **RTI Coverage** | **[✓] Applies** — RBI is a public authority under RTI Act | RTI can be filed for IT Department decisions, procurement, policies | [✓] Covers |
+| **CAG Audit** | **[✓] Applies** — RBI's accounts, including IT Dept spending, are CAG-audited | CAG audits RBI annually and reports to Parliament | [✓] Covers |
+| **Board Independence** | **N/A** — internal department, no board | Reports through RBI's hierarchy | [!] Internal |
 | **MCA/ROC Transparency** | **N/A** — internal department | Not a separate legal entity | — |
-| **Procurement Governance** | **✅ GFR applies** — RBI follows General Financial Rules for its own procurement | IT Department procurement is subject to GFR, CVC oversight, CAG audit | ✅ Governed |
-| **Parliamentary Oversight** | **✅ Applies** — Finance Ministry answers for RBI in Parliament | Questions can be raised about RBI's IT systems, procurement | ✅ Covers |
-| **Conflict-of-Interest Regime** | **RBI's internal code** — not public | Not comprehensive; no public register | ⚠️ Weak |
-| **Security & Disclosure** | **Internal** — no public VAPT reports | RBI's internal IT security posture is not public | ❌ Opaque |
+| **Procurement Governance** | **[✓] GFR applies** — RBI follows General Financial Rules for its own procurement | IT Department procurement is subject to GFR, CVC oversight, CAG audit | [✓] Governed |
+| **Parliamentary Oversight** | **[✓] Applies** — Finance Ministry answers for RBI in Parliament | Questions can be raised about RBI's IT systems, procurement | [✓] Covers |
+| **Conflict-of-Interest Regime** | **RBI's internal code** — not public | Not comprehensive; no public register | [!] Weak |
+| **Security & Disclosure** | **Internal** — no public VAPT reports | RBI's internal IT security posture is not public | [✗] Opaque |
 
 **Overall Score**: 5.5 / 9 — Strongest on paper, but procurement and security details are not effectively public.
 
@@ -1357,15 +1361,15 @@ We evaluate each entity across nine distinct governance axes:
 
 | Dimension | Status | Mechanism | Score |
 |-----------|--------|-----------|-------|
-| **Legal Structure** | **Internal RBI department** | Established January 2022, subsumed fintech unit of DPSS | ⚠️ Internal |
-| **RTI Coverage** | **✅ Applies** | Same as RBI — public authority | ✅ Covers |
-| **CAG Audit** | **✅ Applies** | Part of RBI's accounts | ✅ Covers |
+| **Legal Structure** | **Internal RBI department** | Established January 2022, subsumed fintech unit of DPSS | [!] Internal |
+| **RTI Coverage** | **[✓] Applies** | Same as RBI — public authority | [✓] Covers |
+| **CAG Audit** | **[✓] Applies** | Part of RBI's accounts | [✓] Covers |
 | **Board Independence** | **N/A** | No board | — |
 | **MCA/ROC Transparency** | **N/A** | Internal | — |
-| **Procurement Governance** | **✅ GFR applies** | Same as RBI | ✅ Governed |
-| **Parliamentary Oversight** | **✅ Applies** | Same as RBI | ✅ Covers |
-| **Conflict-of-Interest Regime** | **Same as RBI code** | Not public | ⚠️ Weak |
-| **Security & Disclosure** | **Internal** | No public posture | ❌ Opaque |
+| **Procurement Governance** | **[✓] GFR applies** | Same as RBI | [✓] Governed |
+| **Parliamentary Oversight** | **[✓] Applies** | Same as RBI | [✓] Covers |
+| **Conflict-of-Interest Regime** | **Same as RBI code** | Not public | [!] Weak |
+| **Security & Disclosure** | **Internal** | No public posture | [✗] Opaque |
 
 **Overall Score**: 5.5 / 9 — But note: its existence creates mandate overlap with RBIH (external, not accountable) creating an **accountability arbitrage channel**: functions can be moved between the transparent internal department and the opaque external Section 8 entity at will.
 
@@ -1375,19 +1379,21 @@ We evaluate each entity across nine distinct governance axes:
 
 ### 3.1 The Accountability Gap: Internal vs External
 
+\newpage
 ```
                         HIGH ACCOUNTABILITY                LOW ACCOUNTABILITY
                         (Internal RBI Depts)              (External Entities)
                         ┌─────────────────────────────────────────────────┐
-  RTI Coverage          │  ✅ Applies                 ❌ All denied       │
-  CAG Audit             │  ✅ Applies                 ❌ None covered     │
-  Parliamentary Qs      │  ✅ Possible                ❌ Not possible      │
-  Procurement Oversight │  ✅ GFR + CVC               ❌ Internal manual   │
-  Independent Board     │  N/A (internal)             ❌ Captive boards    │
-  Public Financials     │  ⚠️ Part of RBI accounts    ⚠️ Minimal (ROC)    │
-  Conflict-of-Interest  │  ⚠️ Internal code           ❌ None public       │
+  RTI Coverage          │  [✓] Applies                 [✗] All denied       │
+  CAG Audit             │  [✓] Applies                 [✗] None covered     │
+  Parliamentary Qs      │  [✓] Possible                [✗] Not possible      │
+  Procurement Oversight │  [✓] GFR + CVC               [✗] Internal manual   │
+  Independent Board     │  N/A (internal)             [✗] Captive boards    │
+  Public Financials     │  [!] Part of RBI accounts    [!] Minimal (ROC)    │
+  Conflict-of-Interest  │  [!] Internal code           [✗] None public       │
                         └─────────────────────────────────────────────────┘
 ```
+\pagebreak
 
 The governance architecture is **two-tiered**: functions that stay inside RBI are subject to RTI, CAG, GFR, and parliamentary scrutiny. Functions that are spun off to external entities (IDRBT, IFTAS, ReBIT, RBIH, NPCI) lose all four protections simultaneously.
 
@@ -1420,13 +1426,13 @@ The **most dangerous governance feature** is the ability to move a function betw
 
 | Entity | Legal Form | RTI | CAG | Board Indep. | MCA Public | Procurement | Parliament | COI Register | Security | **Score** |
 |--------|-----------|:---:|:---:|:------------:|:----------:|:-----------:|:----------:|:------------:|:--------:|:---------:|
-| IDRBT | Society | ❌ | ❌ | ❌ | ❌ N/A | ⚠️ | ⚠️ | ❌ | ❌ | **0.5/9** |
-| IFTAS | Sec 8 | ❌ | ❌ | ❌ | ⚠️ | ⚠️ | ❌ | ❌ | ⚠️ | **2/9** |
-| ReBIT | Pvt Ltd | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ⚠️ | **1.5/9** |
-| RBIH | Sec 8 | ❌ | ❌ | ⚠️ | ⚠️ | ❌ | ❌ | ❌ | ⚠️ | **2.5/9** |
-| NPCI | Sec 8 | ❌ | ❌ | ⚠️ | ✅ | ⚠️ | ❌ | ❌ | ⚠️ | **3/9** |
-| RBI IT Dept | Internal | ✅ | ✅ | N/A | N/A | ✅ | ✅ | ⚠️ | ❌ | **5.5/9** |
-| RBI Fintech | Internal | ✅ | ✅ | N/A | N/A | ✅ | ✅ | ⚠️ | ❌ | **5.5/9** |
+| IDRBT | Society | [✗] | [✗] | [✗] | [✗] N/A | [!] | [!] | [✗] | [✗] | **0.5/9** |
+| IFTAS | Sec 8 | [✗] | [✗] | [✗] | [!] | [!] | [✗] | [✗] | [!] | **2/9** |
+| ReBIT | Pvt Ltd | [✗] | [✗] | [✗] | [!] | [✗] | [✗] | [✗] | [!] | **1.5/9** |
+| RBIH | Sec 8 | [✗] | [✗] | [!] | [!] | [✗] | [✗] | [✗] | [!] | **2.5/9** |
+| NPCI | Sec 8 | [✗] | [✗] | [!] | [✓] | [!] | [✗] | [✗] | [!] | **3/9** |
+| RBI IT Dept | Internal | [✓] | [✓] | N/A | N/A | [✓] | [✓] | [!] | [✗] | **5.5/9** |
+| RBI Fintech | Internal | [✓] | [✓] | N/A | N/A | [✓] | [✓] | [!] | [✗] | **5.5/9** |
 
 ---
 
@@ -1720,10 +1726,10 @@ Each new entity is less accountable than the last. The trend line points to a co
 |-----------|------------|----------|----------|----------|
 | **Tech arm legal form** | Society/Section 8/Pvt Ltd | Wholly-owned subsidiary (Bank of England) | Internal divisions + FRS | Internal divisions + NCB coordination |
 | **Entity examples** | IDRBT, IFTAS, ReBIT, RBIH | BoE PSR, BoE RTGS | FedNow, FedWire | T2S, TIPS |
-| **Independent board** | ❌ | ✅ (PSR has independent board) | ✅ (Fed Board has congressional oversight) | ✅ (ECB Governing Council) |
-| **CAG-equivalent audit** | ❌ | ✅ (NAO audits BoE) | ✅ (GAO audits Fed) | ✅ (ECA audits ECB) |
-| **Procurement transparency** | ❌ (IKCON case) | ✅ (OJEU/TED procurement) | ✅ (FAR procurement) | ✅ (EU procurement directives) |
-| **RTI equivalent** | ❌ (contested) | ✅ (FOI applies) | ✅ (FOIA applies to Fed) | ✅ (EU transparency regulation) |
+| **Independent board** | [✗] | [✓] (PSR has independent board) | [✓] (Fed Board has congressional oversight) | [✓] (ECB Governing Council) |
+| **CAG-equivalent audit** | [✗] | [✓] (NAO audits BoE) | [✓] (GAO audits Fed) | [✓] (ECA audits ECB) |
+| **Procurement transparency** | [✗] (IKCON case) | [✓] (OJEU/TED procurement) | [✓] (FAR procurement) | [✓] (EU procurement directives) |
+| **RTI equivalent** | [✗] (contested) | [✓] (FOI applies) | [✓] (FOIA applies to Fed) | [✓] (EU transparency regulation) |
 
 India is an outlier among major economies — its central bank's technology arms operate with less external accountability than any comparable institution in the G20.
 
