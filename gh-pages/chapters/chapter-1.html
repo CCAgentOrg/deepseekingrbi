@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chapter 1 — DeepSeeking Accountability in RBI</title>
+<link rel="stylesheet" href="/deepseekingrbi/assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+      <div class="logo">Deep<span>Seeking</span> RBI</div>
+      <nav>
+        <a href="/deepseekingrbi/">Home</a>
+        <a href="/deepseekingrbi/chapters/chapter-1">Ch.1 - IKCON</a>
+        <a href="/deepseekingrbi/chapters/chapter-2">Ch.2 - Revolving Door</a>
+        <a href="/deepseekingrbi/chapters/twentyfive-year-pattern">25-Yr Timeline</a>
+        <a href="/deepseekingrbi/chapters/revolving-door-database">Revolving Door DB</a>
+        <a href="/deepseekingrbi/chapters/chapter-3">Ch.3 - Proliferation</a>
+        <a href="/deepseekingrbi/chapters/iftas-deep-dive">IFTAS</a>
+        <a href="/deepseekingrbi/chapters/transparency-matrix">Transparency</a>
+        <a href="/deepseekingrbi/book/full-book">Full Book</a>
+        <a href="/deepseekingrbi/DeepSeeking_RBI_Report.pdf">PDF</a>
+      </nav>
+    </header>
+<div class="chapter">
+<h1>DeepSeeking Accountability in RBI</h1>
+<blockquote><p><strong>Full Title</strong>: DeepSeeking Accountability in India's Central Bank: Governance Failures in RBI's Entity Network — The <code>.bank.in</code> Debacle, the Revolving Door, and the Systemic Bypass Template</p></blockquote>
+<h2>Executive Summary</h2>
+<p>The Reserve Bank of India controls a dense network of at least <strong>seven distinct entities</strong> — IDRBT, IFTAS, ReBIT, RBIH, NPCI, and its own IT and Fintech Departments — that operate critical national payments, banking, and cybersecurity infrastructure. These entities share personnel, board seats, and institutional culture with <strong>no external accountability mechanism</strong>.</p>
+<p>The <code>.bank.in</code> domain registry fiasco — where a portal managing the internet identity of every Indian bank was built by an untendered vendor, operated with 33+ critical vulnerabilities, and had no security audit or disclosure mechanism — is not a security incident. It is a <strong>governance debacle</strong> that expresses a structural pattern: RBI creates entities, incubates them, staffs them with rotating insiders, and reabsorbs them at will, all through opaque legal forms that evade Parliament, CAG, RTI, and competitive procurement.</p>
+<p>This report documents that pattern through three lenses: the IKCON single-source award (Chapter 1), the IDRBT revolving door (Chapter 2), and the systemic governance bypass template that entity proliferation enables (Chapter 3).</p>
+<hr>
+<h2>Chapter 1: The IKCON Award — A High-Probability Governance Failure</h2>
+<blockquote><p><strong>Methodology</strong>: This chapter reconstructs the chain of events leading to IKCON Technologies being awarded the <code>.bank.in</code> domain registry contract without competitive tender. The conclusion — that the no-tender award represents a governance failure with high probability of byelaw manipulation — is a <strong>logical inference from verified source data</strong>, not a proven judicial finding. Each claim is graded.</p></blockquote>
+<h3>1.1 The Contract</h3>
+<p>The <code>.bank.in</code> domain registry portal at <code>registrar.idrbt.ac.in</code> is the <strong>exclusive gateway for all ~1,500+ banks in India</strong> to register under the RBI-mandated <code>.bank.in</code> namespace. It handles authentication, PII (email, phone, addresses), domain registration authorization, and certificate issuance for the entire banking sector's internet-facing domains.</p>
+<p><strong>Confirmed facts</strong> <sup><a href="#ref-1">[1]</a></sup>:</p>
+<p>- 33+ unauthenticated API endpoints discovered</p>
+<p>- 5,576 user records exposed (email, phone, addresses)</p>
+<p>- 1,072 orphan Super Admin accounts</p>
+<p>- No <code>security.txt</code> vulnerability disclosure mechanism</p>
+<p>- No evidence of pre-deployment security audit</p>
+<h3>1.2 The Vendor</h3>
+<p>IKCON Technologies (<code>https://www.ikcontech.com/</code>) is a small private company with:</p>
+<p>- <strong>No prior domain registry management track record</strong></p>
+<p>- <strong>No certificate authority (CA) operational history</strong></p>
+<p>- Leadership team of ~3 individuals including Mahesh Jarati <sup><a href="#ref-4">[4]</a></sup></p>
+<p>- No published public sector contracts comparable to the <code>.bank.in</code> mandate</p>
+<p>The portal was awarded to IKCON <strong>without any published tender, RFP, or vendor selection process</strong>. <sup><a href="#ref-2">[2]</a></sup></p>
+<p><strong>Confirmed</strong>: IDRBT's own tender page (https://www.idrbt.ac.in/tenders/) lists all published procurement notices — from modular furniture to HSMs — but contains no entry for the <code>.bank.in</code> domain registry. This negative evidence is consistent with the CashlessConsumer report's finding. <sup><a href="#ref-11">[11]</a></sup></p>
+<h3>1.3 The Key Actors</h3>
+<h4>Deepak Kumar — Director, IDRBT</h4>
+<p>Appointed 2 May 2024. Formerly RBI's <strong>Executive Director, Department of Information Technology</strong> — the same department that oversees IDRBT on RBI's behalf. <sup><a href="#ref-3">[3]</a></sup></p>
+<p><strong>Directorship map</strong> (confirmed from IDRBT Director page and cross-referenced against entity websites):</p>
+<table>
+<thead><tr>
+<th>Entity</th>
+<th>Role</th>
+<th>Since</th>
+</tr></thead><tbody>
+<tr>
+<td>IDRBT</td>
+<td>Director + Governing Council member</td>
+<td>May 2024</td>
+</tr>
+<tr>
+<td>NPCI</td>
+<td>Board member</td>
+<td>Concurrent</td>
+</tr>
+<tr>
+<td>IFTAS</td>
+<td>Board member</td>
+<td>Concurrent</td>
+</tr>
+<tr>
+<td>ReBIT</td>
+<td>Board member</td>
+<td>Concurrent</td>
+</tr>
+<tr>
+<td>RBI Innovation Hub</td>
+<td>Governing Council member [^8]</td>
+<td>Concurrent</td>
+</tr>
+<tr>
+<td>Indian Overseas Bank</td>
+<td>Board member</td>
+<td>Concurrent</td>
+</tr>
+<tr>
+<td>RBI (earlier)</td>
+<td>Executive Director, IT Dept</td>
+<td>Pre-2024</td>
+</tr>
+</tbody></table>
+<p>This creates a <strong>self-oversight paradox</strong>: Deepak Kumar sits on the boards of IFTAS (which took over IDRBT's built infrastructure), ReBIT (RBI's cybersecurity arm that should audit IDRBT), NPCI (which IDRBT's .bank.in registry interacts with), and is simultaneously a member of IDRBT's own Governing Council — the body meant to oversee him. <sup><a href="#ref-3">[3]</a></sup><sup><a href="#ref-5">[5]</a></sup></p>
+<h4>Mahesh Jarati — The IFTAS→IKCON Link</h4>
+<p><strong>Confirmed</strong>: Mahesh Jarati is listed on IKCON Technologies' Executive Leadership Team alongside Divakar Talagadadeevi and Madhu Kiran Boindala. <sup><a href="#ref-4">[4]</a></sup> ZoomInfo records confirm current employment at IKCON.</p>
+<p><strong>High confidence</strong>: Source investigation reports Mahesh Jarati as ex-IFTAS (Indian Financial Technology and Allied Services). [Annexure A] IFTAS manages technology infrastructure for the <strong>cooperative banking sector</strong> — exactly the banks that are primary targets of the .bank.in domain migration mandate.</p>
+<p><strong>The logical chain</strong>: Mahesh Jarati moved from:</p>
+<p>1. <strong>IFTAS</strong> → cooperative bank technology procurement (knows requirements, budgets, vendors)</p>
+<p>2. <strong>IKCON Technologies</strong> → the vendor that received a no-tender contract from IDRBT to build the .bank.in portal serving those same cooperative banks</p>
+<p>This is a textbook <strong>revolving-door conflict pattern</strong>. The byelaw amendment allegation — that IDRBT's Governing Council raised single-source procurement thresholds specifically to accommodate IKCON — would explain why a small company with no relevant track record could qualify for a contract that would normally require competitive bidding. <sup><a href="#ref-5">[5]</a></sup></p>
+<h3>1.4 Byelaw Amendment: The Allegation</h3>
+<p><strong>Alleged</strong> (unverified): IDRBT's Governing Council amended procurement byelaws to:</p>
+<p>- Raise single-source procurement thresholds</p>
+<p>- Relax vendor eligibility criteria</p>
+<p>- Enable IKCON to qualify without competitive tender</p>
+<p><strong>What is confirmed</strong>:</p>
+<p>- ✅ No tender was published for the <code>.bank.in</code> portal</p>
+<p>- ✅ IDRBT's IT Vendor Management Manual (ITVM_Final.pdf) <sup><a href="#ref-12">[12]</a></sup> specifies competitive bidding requirements above certain thresholds</p>
+<p>- ✅ Deepak Kumar, as Director, is the approving authority for procurement</p>
+<p>- ✅ The Governing Council (including Deepak Kumar) sets procurement policy <sup><a href="#ref-5">[5]</a></sup></p>
+<p>- ✅ IDRBT held its 80th Governing Council meeting on 21 June 2024 — after Deepak Kumar's appointment — where procurement policy could have been amended [IDRBT 2023-2024 page]</p>
+<h3>1.5 Safeguards That Failed</h3>
+<table>
+<thead><tr>
+<th>Safeguard</th>
+<th>Expected</th>
+<th>Actual</th>
+<th>Source</th>
+</tr></thead><tbody>
+<tr>
+<td>Procurement policy</td>
+<td>Competitive tender above threshold</td>
+<td>No tender published</td>
+<td>[^2][^11]</td>
+</tr>
+<tr>
+<td>Governing Council oversight</td>
+<td>Independent review of awards</td>
+<td>Council members are RBI network</td>
+<td>[^3][^5]</td>
+</tr>
+<tr>
+<td>CAG audit</td>
+<td>Statutory audit of public-funded entity</td>
+<td>Society exempts from CAG</td>
+<td>Legal analysis</td>
+</tr>
+<tr>
+<td>RTI oversight</td>
+<td>Public can question procurement</td>
+<td>IDRBT claims exemption</td>
+<td>[Annexure D]</td>
+</tr>
+<tr>
+<td>Security audit</td>
+<td>Pre-deployment VAPT per CERT-In</td>
+<td>No audit; 33+ endpoints exposed</td>
+<td>[^1]</td>
+</tr>
+<tr>
+<td>Disclosure mechanism</td>
+<td><code>security.txt</code>, reporting channel</td>
+<td>None present</td>
+<td>[^1]</td>
+</tr>
+</tbody></table>
+<h3>1.6 Source Grading</h3>
+<table>
+<thead><tr>
+<th>Claim</th>
+<th>Grade</th>
+<th>Evidence</th>
+</tr></thead><tbody>
+<tr>
+<td>Mahesh Jarati at IKCON</td>
+<td>✅ <strong>Confirmed</strong></td>
+<td>IKCON leadership page [^4]; ZoomInfo</td>
+</tr>
+<tr>
+<td>Mahesh Jarati ex-IFTAS</td>
+<td>⚠️ <strong>High confidence</strong></td>
+<td>Source claim + ZoomInfo cross-refs; IFTAS contextual fit [Annex A]</td>
+</tr>
+<tr>
+<td>No tender for IKCON contract</td>
+<td>✅ <strong>Confirmed</strong></td>
+<td>CashlessConsumer .bank.in report [^2]; tender page absence [^11]</td>
+</tr>
+<tr>
+<td>Deepak Kumar = approving authority</td>
+<td>✅ <strong>Confirmed</strong></td>
+<td>IDRBT Director has procurement authority [^3]</td>
+</tr>
+<tr>
+<td>Byelaw amendment for vendor rates</td>
+<td>🔴 <strong>Allegation only</strong></td>
+<td>Source claim; no public document found yet</td>
+</tr>
+<tr>
+<td>Rate rigging / better rates</td>
+<td>🔴 <strong>Unverified</strong></td>
+<td>Requires pre/post contract pricing data</td>
+</tr>
+</tbody></table>
+<hr>
+</div>
+<footer>
+  <p><strong>DeepSeeking Accountability in RBI</strong> — A governance investigation by <a href="https://cashlessconsumer.in">CashlessConsumer</a> | <a href="https://github.com/CCAgentOrg/deepseekingrbi">GitHub</a></p>
+</footer>
+</body>
+</html>
