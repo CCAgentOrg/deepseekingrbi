@@ -222,7 +222,7 @@ For an entity operating tier-1 national financial infrastructure (RTGS/NEFT mess
 
 [^7]: CashlessConsumer — RBI Governance Report, Chapters 2 & 3: Governance analysis of RBI entity structure, revolving door pattern, legal form bypass template. (File: `file deepseekingrbi/chapters/rbi_governance.md`)
 
-[^8]: RBI Press Release — RBIH Governing Council inauguration (March 2022): N.S. Vishwanathan as IDRBT Governing Council Chair; his role on Rangarajan Committee (EERC) confirmed across historical record. (https://www.rbi.org.in/scripts/FS_PressRelease.aspx?fn=9&prid=50666)
+[^8]: RBI Press Release — RBIH Governing Council announcement (November 2020) confirming Governing Council composition. NOTE: The claim that N.S. Vishwanathan served on the Rangarajan Committee could not be independently verified from available public records and should not be treated as confirmed. (https://www.rbi.org.in/scripts/FS_PressRelease.aspx?fn=9&prid=50666)
 
 [^9]: Tracxn — IFTAS Company Profile: Revenue $50–100M range, employee count 424 (Jun 2025), revenue ~₹455Cr (~$55M) in FY2024. (https://tracxn.com/d/companies/iftas/__iYjz8zkN4PlOUl2KpVayJWhZzi5Rya4dQWFpElcWjZY)
 

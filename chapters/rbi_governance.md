@@ -24,7 +24,6 @@ The `.bank.in` domain registry portal at `registrar.idrbt.ac.in` is the **exclus
 - 33+ unauthenticated API endpoints discovered
 - 5,576 user records exposed (email, phone, addresses)
 - 1,072 orphan Super Admin accounts
-- 410 wildcard TLS certificates issued — spanning 1,964 subdomains across 213 parent domains
 - No `security.txt` vulnerability disclosure mechanism
 - No evidence of pre-deployment security audit
 
@@ -115,7 +114,7 @@ This is a textbook **revolving-door conflict pattern**. The byelaw amendment all
 ### 2.1 The Governing Council: Structural Inbreeding
 
 IDRBT's Governing Council is chaired by **former RBI Deputy Governor N.S. Vishwanathan** and includes:
-- N.S. Vishwanathan (Chair) — former RBI Deputy Governor; also served on the 2009 Rangarajan Committee that recommended IDRBT shed its operational services [^7]
+- N.S. Vishwanathan (Chair) — former RBI Deputy Governor
 - Deepak Kumar (Member) — IDRBT Director, fellow board member of IFTAS, ReBIT, RBIH, NPCI [^3]
 - Senior RBI officials (current)
 - Representatives from NPCI
@@ -187,7 +186,7 @@ Deepak Kumar simultaneously:
 
 The 2009 External Expert Review Committee (EERC) chaired by **Dr. C. Rangarajan** recommended IDRBT shed operational services and focus on R&D. This led to creation of IFTAS and transfer of INFINET, SFMS, and other IDRBT-built infrastructure. [^7]
 
-N.S. Vishwanathan — current IDRBT Governing Council Chair — was a **member of that Rangarajan Committee**. [Annexure A, cross-referencing RBI committee records]
+The EERC report's recommendation directly led to the creation of IFTAS and the transfer of IDRBT-built assets — INFINET, SFMS, RTGS, NEFT, and IBCC.
 
 **Governance implication**: The person who chairs the body overseeing IDRBT today helped design the policy that **hollowed it out** 15 years ago. There is no mechanism for a fresh perspective to question whether the 2009 assumptions remain valid — because no one at the table has any incentive to question their own legacy.
 
@@ -341,7 +340,7 @@ NPCI operates India's most critical payments infrastructure (UPI, RuPay, IMPS, N
 |-----------|-------|--------|
 | .bank.in portal — unauthenticated API endpoints | 33+ | [^1] |
 | User records exposed | 5,576 | [^1] |
-| Wildcard certs issued | 410 covering 1,964 subdomains | [^1] |
+| Wildcard certs issued | N/A — unverified claim removed pending RTI | ❌ Not independently verified |
 | Orphan Super Admin accounts | 1,072 | [^1] |
 | IDRBT Director appointment gap (Nikhila→Deepak) | 1 day | [^6] |
 | Nikhila's tenure as IDRBT Director | ~92 days (24 Jan – 1 May 2024) | [^6] |

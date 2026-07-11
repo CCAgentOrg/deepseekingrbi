@@ -10,7 +10,7 @@
 
 | Year | Event | Significance |
 |------|-------|-------------|
-| 1984 | Rangarajan Committee Report on computerisation | First recommendation for technology in banking |
+| 1984 | Rangarajan Committee Report on computerisation | Chaired by Dr. C. Rangarajan; first recommendation for technology in banking — distinct from the 2009 EERC also chaired by Rangarajan |
 | 1989 | Second Rangarajan Committee Report | Strengthened case for a dedicated technology institute |
 | 1994 | Saraf Committee recommends apex tech institute | Direct precursor to IDRBT |
 | 1995 | RBI Central Board approves IDRBT (Oct 19) | Board resolution at Thiruvananthapuram meeting |
@@ -62,7 +62,7 @@ The 2019 IFTAS clawback is the critical pivot: it proved RBI was comfortable **r
 | **2023** | NPCI surplus crosses ₹1,000 cr | For-profit conversion pressure builds |
 | **2024 May** | Deepak Kumar appointed IDRBT Director | Former RBI ED (IT Dept) now runs the entity he used to oversee |
 | **2024** | .bank.in registry goes live (IKCON, no tender) | Governance bypass in practice |
-| **2025** | IDRBT Governing Council chaired by N.S. Vishwanathan | Former Rangarajan Committee member now oversees hollowed IDRBT |
+| **2022–present** | IDRBT Governing Council chaired by N.S. Vishwanathan | Former Deputy Governor now chairs oversight of institution weakened by EERC recommendations |
 | **2025** | IDRBT launches .bank.in CA operations | Certificate authority added without competitive process |
 | **2026** | Security vulnerabilities in .bank.in portal exposed | 33+ unauthenticated endpoints, 5,576 records leaked |
 
@@ -256,7 +256,7 @@ The 25-year pattern reveals:
 
 ## References
 
-[^1]: IDRBT Journey page — Establishment timeline from Rangarajan Committee (1984) to IDRBT (1996). (https://www.idrbt.ac.in/the-journey-of-idrbt/)
+[^1]: IDRBT Journey page — Establishment timeline from Saraf Committee recommendation (1994) to IDRBT (1996), preceded by Rangarajan Committee reports on computerisation (1984, 1989). (https://www.idrbt.ac.in/the-journey-of-idrbt/)
 
 [^2]: IDRBT Milestones page — Chronological development 1994–2026. (https://www.idrbt.ac.in/milestones/)
 

@@ -96,7 +96,7 @@ Individuals serving on 2+ entities simultaneously create the revolving door. The
 
 | Entity | Role | Period |
 |--------|------|--------|
-| RBI (Advisory) | Member, EERC (Rangarajan Committee) | 2009 – 2009 |
+| RBI (Advisory) | Senior official, Department-level roles | Various |
 | RBI | Deputy Governor | 2016 – 2021 |
 | IDRBT | Chairperson, Governing Council | 2021 – Present |
 
