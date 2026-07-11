@@ -332,6 +332,15 @@ def build():
     with open(ANNEXURES_DIR / "reference-matrix.html", "w") as f:
         f.write(wrap("Reference Matrix", md_to_html(ref_matrix)))
     print("Written: reference-matrix.html")
+
+    # Fact-check report annexure
+    fact_check_src = BASE / "fact-check-report.md"
+    if fact_check_src.exists():
+        with open(fact_check_src) as f:
+            fc = f.read()
+        with open(ANNEXURES_DIR / "fact-check-report.html", "w") as f:
+            f.write(wrap("Fact-Check Report", md_to_html(fc)))
+        print("Written: fact-check-report.html")
     
     # Full book
     book_path = BASE / "book" / "full-book.md"
