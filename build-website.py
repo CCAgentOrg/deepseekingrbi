@@ -26,6 +26,7 @@ def wrap(title, body, is_index=False):
         <a href="/deepseekingrbi/">Home</a>
         <a href="/deepseekingrbi/chapters/chapter-1">Ch.1 - IKCON</a>
         <a href="/deepseekingrbi/chapters/chapter-2">Ch.2 - Revolving Door</a>
+        <a href="/deepseekingrbi/chapters/twentyfive-year-pattern">25-Yr Timeline</a>
         <a href="/deepseekingrbi/chapters/revolving-door-database">Revolving Door DB</a>
         <a href="/deepseekingrbi/chapters/chapter-3">Ch.3 - Proliferation</a>
         <a href="/deepseekingrbi/chapters/iftas-deep-dive">IFTAS</a>
@@ -232,7 +233,8 @@ def build():
 <li><span class="title"><a href="chapters/revolving-door-database">Revolving Door Database</a></span><br><span class="desc">Evidence-backed analysis of 29 identifiable individuals across 6 entities — 65% are RBI insiders. Entity-by-entity classification with governance impact.</span></li>
 <li><span class="title"><a href="chapters/chapter-3">Chapter 3: Too Many Entities, No Accountability</a></span><br><span class="desc">How seven RBI-controlled entities with overlapping mandates create diffuse responsibility and zero external oversight.</span></li>
 <li><span class="title"><a href="chapters/iftas-deep-dive">Chapter 4: IFTAS — The Clawback That Explains Everything</a></span><br><span class="desc">The 2009 Rangarajan Committee, INFINET/SFMS transfer, 2019 RBI acquisition — the template for asset consolidation.</span></li>
-<li><span class="title"><a href="chapters/transparency-matrix">Chapter 5: Transparency & Accountability Matrix</a></span><br><span class="desc">9-dimension accountability audit of all RBI IT arms across RTI, CAG, legal structure, and board independence.</span></li>
+<li><span class="title"><a href="chapters/twentyfive-year-pattern">Chapter 5: 25-Year Pattern — The Architecture of Control</a></span><br><span class="desc">A comprehensive timeline from 1996-2025 revealing the cyclical pattern — Create, Spin-Off, Reabsorb — across 9 RBI-controlled entities.</span></li>
+<li><span class="title"><a href="chapters/transparency-matrix">Chapter 6: Transparency & Accountability Matrix</a></span><br><span class="desc">9-dimension accountability audit of all RBI IT arms across RTI, CAG, legal structure, and board independence.</span></li>
 <li><span class="title"><a href="chapters/historical-survey">Historical Survey of RBI Subsidiaries</a></span><br><span class="desc">Comprehensive historical overview of RBI's entity creation and governance patterns.</span></li>
 </ol>
 """
@@ -317,6 +319,13 @@ def build():
     with open(CHAPTERS_DIR / "revolving-door-database.html", "w") as f:
         f.write(wrap("Revolving Door Database", md_to_html(revolving)))
     print("Written: revolving-door-database.html")
+
+    # 25-Year Timeline Chapter
+    with open(BASE / "chapters" / "twentyfive-year-pattern.md") as f:
+        timeline = f.read()
+    with open(CHAPTERS_DIR / "twentyfive-year-pattern.html", "w") as f:
+        f.write(wrap("25-Year Pattern", md_to_html(timeline)))
+    print("Written: twentyfive-year-pattern.html")
 
     with open(BASE / "annexures" / "reference-matrix.md") as f:
         ref_matrix = f.read()
