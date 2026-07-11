@@ -80,7 +80,7 @@ This is a textbook **revolving-door conflict pattern**. The byelaw amendment all
 
 **What is confirmed**:
 - ✅ No tender was published for the `.bank.in` portal
-- ✅ IDRBT's IT Vendor Management Manual (ITVM_Final.pdf) [^12] specifies competitive bidding requirements above certain thresholds
+- ✅ IDRBT's IT Vendor Management guide (ITVM_Final.pdf) [^12] describes competitive bidding as best practice, but IDRBT's actual internal procurement thresholds are not publicly documented
 - ✅ Deepak Kumar, as Director, is the approving authority for procurement
 - ✅ The Governing Council (including Deepak Kumar) sets procurement policy [^5]
 - ✅ IDRBT held its 80th Governing Council meeting on 21 June 2024 — after Deepak Kumar's appointment — where procurement policy could have been amended [IDRBT 2023-2024 page]
@@ -322,7 +322,7 @@ NPCI operates India's most critical payments infrastructure (UPI, RuPay, IMPS, N
 
 [^11]: IDRBT Tenders page: All published tenders — no `.bank.in` portal tender found. Accessed 2026-07-11. **Negative evidence**: absence of tender where all other IDRBT procurement is listed. (https://www.idrbt.ac.in/tenders/)
 
-[^12]: IDRBT IT Vendor Management Manual (ITVM_Final.pdf): Documents competitive bidding requirements and procurement thresholds. Accessed 2026-07-11. (https://www.idrbt.ac.in/wp-content/uploads/2022/07/ITVM_Final.pdf)
+[^12]: IDRBT IT Vendor Management: Principles & Practices (ITVM_Final.pdf): A guide on procurement best practices, not IDRBT's own binding purchase manual. Accessed 2026-07-11. (https://www.idrbt.ac.in/wp-content/uploads/2022/07/ITVM_Final.pdf)
 
 [^13]: RBI Organisation and Functions page: Lists DICGC as fully-owned subsidiary. IDRBT, ReBIT, IFTAS, and RBIH are NOT listed as subsidiaries — they exist outside RBI's own official organisational disclosure. Accessed 2026-07-11. (https://www.rbi.org.in/commonman/English/Scripts/Organisation.aspx)
 

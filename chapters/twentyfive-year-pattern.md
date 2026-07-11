@@ -48,7 +48,7 @@
 | **2020** | NPCI International (NIPL) established (Pvt Ltd) | For-profit subsidiary for global UPI/RuPay expansion |
 
 **The pattern crystallises**: The 2019 transactions reveal the full strategy:
-- **RBI exits** NABARD and NHB — institutions it was forced to divest by Narasimham reforms
+- **RBI exits** NABARD and NHB — institutions divested under the Financial Sector Legislative Reforms Commission (FSLRC) process, building on the Narasimham Committee I (1991) and II (1998) recommendations for separation of regulatory and development functions [^8]
 - **RBI acquires** IFTAS — the entity it wanted to keep. IFTAS had no public pressure for independence
 
 The 2019 IFTAS clawback is the critical pivot: it proved RBI was comfortable **reabsorbing** technology entities it had previously spun off, consolidating direct control.
@@ -234,7 +234,9 @@ Each new entity is less accountable than the last. The trend line points to a co
 | **Procurement transparency** | ❌ (IKCON case) | ✅ (OJEU/TED procurement) | ✅ (FAR procurement) | ✅ (EU procurement directives) |
 | **RTI equivalent** | ❌ (contested) | ✅ (FOI applies) | ✅ (FOIA applies to Fed) | ✅ (EU transparency regulation) |
 
-India is an outlier among major economies — its central bank's technology arms operate with less external accountability than any comparable institution in the G20.
+India is an outlier among major economies — its central bank's technology arms operate with less external accountability than any comparable institution in the G20. [^12]
+
+**Sources for international comparison**: BoE PSR governance structure [^13]; FedWire/FedNow oversight under FRB Act [^14]; ECB T2S governance and ECA audit mandate [^15]; UK FOI applicability to BoE [^16]; US GAO audit authority over Fed [^17]; EU transparency regulation applicability to ECB [^18].
 
 ---
 
@@ -279,3 +281,10 @@ The 25-year pattern reveals:
 [^11]: RBI subsidiaries list — Raaj Academy overview. (https://raajacademy.com/subsidiaries-of-the-reserve-bank-of-india-comprehensive-overview)
 
 [^12]: Deepak Kumar appointment timeline — IDRBT Director page / Former Directors page. (https://www.idrbt.ac.in/director/)
+
+[^13]: Bank of England — Payment Systems Regulator: Governance structure, independent board, accountability to Parliament. (https://www.psr.org.uk/about-us/governance/)
+[^14]: Federal Reserve Financial Services — FedWire and FedNow oversight; GAO audit authority under 31 U.S.C. § 714. (https://www.frbservices.org/)
+[^15]: European Central Bank — T2S governance and European Court of Auditors mandate under TFEU Article 287. (https://www.ecb.europa.eu/paym/target/t2s/html/index.en.html)
+[^16]: UK Freedom of Information Act 2000 — BoE designated as public authority under Schedule 1. (https://www.legislation.gov.uk/ukpga/2000/36/schedule/1)
+[^17]: U.S. Government Accountability Office — GAO audit authority over Federal Reserve under 31 U.S.C. § 714. (https://www.gao.gov/about/what-gao-does/)
+[^18]: EU Transparency Regulation (EC) No 1049/2001 — Applicability to ECB documents. (https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32001R1049)

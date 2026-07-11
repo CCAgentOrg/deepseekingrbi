@@ -1,6 +1,6 @@
 # IFTAS: The Clawback — A Governance Deep Dive
 
-> **Thesis**: IFTAS (Indian Financial Technology and Allied Services) is the clearest demonstration of RBI's entity lifecycle template: build infrastructure in an accountable entity (IDRBT), spin it off to a less transparent structure (IFTAS Section 8), then claw it back under direct RBI control — all without market pricing, public accounting, or independent oversight. The IFTAS story is not a success story; it is a governance case study in asset consolidation through institutional churn.
+> **Thesis**: IFTAS (Indian Financial Technology and Allied Services) is the clearest demonstration of RBI's entity lifecycle template: build infrastructure in an accountable entity (IDRBT), spin it off to a less transparent structure (IFTAS Section 8), then claw it back under direct RBI control — all without published market pricing, public accounting, or independent oversight. The IFTAS story is not a success story; it is a governance case study in asset consolidation through institutional churn.
 
 ---
 
@@ -220,9 +220,9 @@ For an entity operating tier-1 national financial infrastructure (RTGS/NEFT mess
 
 [^6]: GrowJo — IFTAS profile: Section 8 non-profit, board from RBI/C-DAC/CCICI/IDRBT/NABARD; IBCC, INFINET, SFMS; $70M revenue estimate. (https://growjo.com/company/Indian_Financial_Technology_and_Allied_Services_(IFTAS))
 
-[^7]: CashlessConsumer — RBI Governance Report, Chapters 2 & 3: Governance analysis of RBI entity structure, revolving door pattern, legal form bypass template. (File: `file deepseekingrbi/chapters/rbi_governance.md`)
+[^7]: IDRBT — The Journey of IDRBT page (confirming no published valuation of asset transfer to IFTAS). (https://www.idrbt.ac.in/the-journey-of-idrbt/)
 
-[^8]: RBI Press Release — RBIH Governing Council announcement (November 2020) confirming Governing Council composition. NOTE: The claim that N.S. Vishwanathan served on the Rangarajan Committee could not be independently verified from available public records and should not be treated as confirmed. (https://www.rbi.org.in/scripts/FS_PressRelease.aspx?fn=9&prid=50666)
+[^8]: RBI Press Release — RBIH Governing Council announcement (November 2020) confirming Governing Council composition. (https://www.rbi.org.in/scripts/FS_PressRelease.aspx?fn=9&prid=50666)
 
 [^9]: Tracxn — IFTAS Company Profile: Revenue $50–100M range, employee count 424 (Jun 2025), revenue ~₹455Cr (~$55M) in FY2024. (https://tracxn.com/d/companies/iftas/__iYjz8zkN4PlOUl2KpVayJWhZzi5Rya4dQWFpElcWjZY)
 

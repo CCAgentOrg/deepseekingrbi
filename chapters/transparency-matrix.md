@@ -2,6 +2,11 @@
 
 > **Frame**: A governance entity is only as accountable as its transparency architecture. This chapter maps every IT/technology entity under RBI's control along nine dimensions of accountability — scoring what's public, what's hidden, and the legal mechanism that enables the opacity. The result is a systemic map of where governance works, where it's bypassed, and how the bypass is structurally engineered.
 
+### Methodology: Scoring Explained
+
+Each entity is scored on 9 dimensions. Per dimension: ✅ = 1 point (mechanism functions), ⚠️ = 0.5 points (partial/indirect), ❌ = 0 points (absent/denied). Maximum total = 9. The score measures **transparency & accountability architecture**, not operational performance, security posture, or mandate fulfilment. A low score means the entity has structural opacity — not that it performs its function poorly.
+
+
 ---
 
 ## 1. The Analytical Frame: 9 Dimensions of Accountability
