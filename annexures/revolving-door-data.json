@@ -1,0 +1,550 @@
+{
+  "people": {
+    "Deepak Kumar": {
+      "name": "Deepak Kumar",
+      "categories": [
+        "RBI-insider"
+      ],
+      "roles": [
+        {
+          "entity": "RBI",
+          "role": "Executive Director (IT Department)",
+          "start": "~2020",
+          "end": "May 2024"
+        },
+        {
+          "entity": "IDRBT",
+          "role": "Director",
+          "start": "2 May 2024",
+          "end": "Present"
+        },
+        {
+          "entity": "IDRBT",
+          "role": "Governing Council Member",
+          "start": "2024",
+          "end": "Present"
+        },
+        {
+          "entity": "IFTAS",
+          "role": "Board Member",
+          "start": "2024",
+          "end": "Present"
+        },
+        {
+          "entity": "ReBIT",
+          "role": "Board Member",
+          "start": "~2020",
+          "end": "Present"
+        },
+        {
+          "entity": "RBIH",
+          "role": "Governing Council Member",
+          "start": "2022",
+          "end": "Present"
+        },
+        {
+          "entity": "NPCI",
+          "role": "Board Member",
+          "start": "~2023",
+          "end": "Present"
+        },
+        {
+          "entity": "Indian Overseas Bank",
+          "role": "Board Member",
+          "start": "~2022",
+          "end": "Present"
+        },
+        {
+          "entity": "RBIH",
+          "role": "Governing Council Member",
+          "start": "2022",
+          "end": "Present"
+        },
+        {
+          "entity": "NPCI",
+          "role": "Director",
+          "start": "~2023",
+          "end": "Present"
+        },
+        {
+          "entity": "RBI IT Dept",
+          "role": "Head (Executive Director)",
+          "start": "~2020",
+          "end": "May 2024"
+        }
+      ]
+    },
+    "N.S. Vishwanathan": {
+      "name": "N.S. Vishwanathan",
+      "categories": [
+        "RBI-insider"
+      ],
+      "roles": [
+        {
+          "entity": "RBI",
+          "role": "Deputy Governor",
+          "start": "2016",
+          "end": "2021"
+        },
+        {
+          "entity": "IDRBT",
+          "role": "Chairperson, Governing Council",
+          "start": "2021",
+          "end": "Present"
+        },
+        {
+          "entity": "RBI (Advisory)",
+          "role": "Member, EERC (Rangarajan Committee)",
+          "start": "2009",
+          "end": "2009"
+        }
+      ]
+    },
+    "Ajay Kumar Choudhary": {
+      "name": "Ajay Kumar Choudhary",
+      "categories": [
+        "RBI-insider"
+      ],
+      "roles": [
+        {
+          "entity": "RBI",
+          "role": "Executive Director (Fintech Dept)",
+          "start": "2022",
+          "end": "Present"
+        },
+        {
+          "entity": "IDRBT",
+          "role": "Governing Council Member",
+          "start": "~2023",
+          "end": "Present"
+        },
+        {
+          "entity": "RBI Fintech Dept",
+          "role": "Executive Director",
+          "start": "Jan 2022",
+          "end": "Present"
+        }
+      ]
+    },
+    "Siddhartha Srimani": {
+      "name": "Siddhartha Srimani",
+      "categories": [
+        "Ecosystem"
+      ],
+      "roles": [
+        {
+          "entity": "IDRBT",
+          "role": "Governing Council Member",
+          "start": "~2023",
+          "end": "Present"
+        }
+      ]
+    },
+    "Somnath Ghosh": {
+      "name": "Somnath Ghosh",
+      "categories": [
+        "Ecosystem",
+        "RBI-insider"
+      ],
+      "roles": [
+        {
+          "entity": "IDRBT",
+          "role": "Governing Council Member",
+          "start": "~2023",
+          "end": "Present"
+        },
+        {
+          "entity": "RBI",
+          "role": "Deputy General Manager",
+          "start": "~1990s",
+          "end": "~2000s"
+        },
+        {
+          "entity": "ReBIT",
+          "role": "Chairman",
+          "start": "~2021",
+          "end": "Present"
+        },
+        {
+          "entity": "RBI",
+          "role": "Deputy General Manager",
+          "start": "~1982",
+          "end": "~2000"
+        }
+      ]
+    },
+    "Sudha Balakrishnan": {
+      "name": "Sudha Balakrishnan",
+      "categories": [
+        "Independent",
+        "RBI-insider"
+      ],
+      "roles": [
+        {
+          "entity": "IDRBT",
+          "role": "Governing Council Member",
+          "start": "~2023",
+          "end": "Present"
+        },
+        {
+          "entity": "RBI",
+          "role": "Former CFO",
+          "start": "~2018",
+          "end": "2021"
+        }
+      ]
+    },
+    "Rama Subramaniam Gandhi": {
+      "name": "Rama Subramaniam Gandhi",
+      "categories": [
+        "Independent"
+      ],
+      "roles": [
+        {
+          "entity": "IDRBT",
+          "role": "Governing Council Member",
+          "start": "~2023",
+          "end": "Present"
+        }
+      ]
+    },
+    "Krishnamurthy Hanumantha Rao": {
+      "name": "Krishnamurthy Hanumantha Rao",
+      "categories": [
+        "RBI-insider"
+      ],
+      "roles": [
+        {
+          "entity": "IFTAS",
+          "role": "Director",
+          "start": "~2020",
+          "end": "Present"
+        }
+      ]
+    },
+    "Vivek Deep": {
+      "name": "Vivek Deep",
+      "categories": [
+        "RBI-insider"
+      ],
+      "roles": [
+        {
+          "entity": "IFTAS",
+          "role": "Director",
+          "start": "~2020",
+          "end": "Present"
+        }
+      ]
+    },
+    "Sivakumar Gopalan": {
+      "name": "Sivakumar Gopalan",
+      "categories": [
+        "RBI-insider"
+      ],
+      "roles": [
+        {
+          "entity": "IFTAS",
+          "role": "Director",
+          "start": "~2020",
+          "end": "Present"
+        }
+      ]
+    },
+    "Seshabhadrasrinivasa Mallikarjunarao Chamarty": {
+      "name": "Seshabhadrasrinivasa Mallikarjunarao Chamarty",
+      "categories": [
+        "RBI-insider"
+      ],
+      "roles": [
+        {
+          "entity": "IFTAS",
+          "role": "Director",
+          "start": "~2022",
+          "end": "Present"
+        }
+      ]
+    },
+    "Shailendra Trivedi": {
+      "name": "Shailendra Trivedi",
+      "categories": [
+        "RBI-insider"
+      ],
+      "roles": [
+        {
+          "entity": "IFTAS",
+          "role": "Director",
+          "start": "~2022",
+          "end": "Present"
+        }
+      ]
+    },
+    "Santosh Vilas Mohile": {
+      "name": "Santosh Vilas Mohile",
+      "categories": [
+        "RBI-insider"
+      ],
+      "roles": [
+        {
+          "entity": "IFTAS",
+          "role": "Director",
+          "start": "~2023",
+          "end": "Present"
+        }
+      ]
+    },
+    "Sachin Chaturvedi": {
+      "name": "Sachin Chaturvedi",
+      "categories": [
+        "RBI-insider"
+      ],
+      "roles": [
+        {
+          "entity": "ReBIT",
+          "role": "Director",
+          "start": "~2020",
+          "end": "Present"
+        }
+      ]
+    },
+    "Santhosh George": {
+      "name": "Santhosh George",
+      "categories": [
+        "RBI-insider"
+      ],
+      "roles": [
+        {
+          "entity": "ReBIT",
+          "role": "Director",
+          "start": "~2020",
+          "end": "Present"
+        }
+      ]
+    },
+    "Kris Gopalakrishnan": {
+      "name": "Kris Gopalakrishnan",
+      "categories": [
+        "Independent"
+      ],
+      "roles": [
+        {
+          "entity": "RBIH",
+          "role": "Chairperson",
+          "start": "2022",
+          "end": "Present"
+        },
+        {
+          "entity": "Infosys",
+          "role": "Co-founder",
+          "start": "1981",
+          "end": "Present"
+        }
+      ]
+    },
+    "A.P. Hota": {
+      "name": "A.P. Hota",
+      "categories": [
+        "Ecosystem"
+      ],
+      "roles": [
+        {
+          "entity": "RBIH",
+          "role": "Governing Council Member",
+          "start": "2022",
+          "end": "Present"
+        }
+      ]
+    },
+    "T. Rabi Sankar": {
+      "name": "T. Rabi Sankar",
+      "categories": [
+        "RBI-insider"
+      ],
+      "roles": [
+        {
+          "entity": "RBI",
+          "role": "Executive Director",
+          "start": "~2015",
+          "end": "Present"
+        },
+        {
+          "entity": "RBIH",
+          "role": "Governing Council Member",
+          "start": "2022",
+          "end": "Present"
+        }
+      ]
+    },
+    "K. Nikhila": {
+      "name": "K. Nikhila",
+      "categories": [
+        "RBI-insider"
+      ],
+      "roles": [
+        {
+          "entity": "RBIH",
+          "role": "Governing Council Member",
+          "start": "2024",
+          "end": "Present"
+        },
+        {
+          "entity": "IDRBT",
+          "role": "Director (3 months)",
+          "start": "24 Jan 2024",
+          "end": "1 May 2024"
+        },
+        {
+          "entity": "RBI",
+          "role": "Regional Director",
+          "start": "~2022",
+          "end": "Jan 2024"
+        },
+        {
+          "entity": "IDRBT",
+          "role": "Former Director",
+          "start": "24 Jan 2024",
+          "end": "1 May 2024"
+        }
+      ]
+    },
+    "Nageswara Rao Y": {
+      "name": "Nageswara Rao Y",
+      "categories": [
+        "RBI-insider"
+      ],
+      "roles": [
+        {
+          "entity": "NPCI",
+          "role": "Chairperson",
+          "start": "~2022",
+          "end": "Present"
+        }
+      ]
+    },
+    "Vishal H. Khemani": {
+      "name": "Vishal H. Khemani",
+      "categories": [
+        "Ecosystem"
+      ],
+      "roles": [
+        {
+          "entity": "NPCI",
+          "role": "Director",
+          "start": "~2022",
+          "end": "Present"
+        }
+      ]
+    },
+    "Ravi J. Shah": {
+      "name": "Ravi J. Shah",
+      "categories": [
+        "Independent"
+      ],
+      "roles": [
+        {
+          "entity": "NPCI",
+          "role": "Director",
+          "start": "~2022",
+          "end": "Present"
+        }
+      ]
+    },
+    "Ajeet Kumar Pandey": {
+      "name": "Ajeet Kumar Pandey",
+      "categories": [
+        "Ecosystem"
+      ],
+      "roles": [
+        {
+          "entity": "NPCI",
+          "role": "Director",
+          "start": "~2022",
+          "end": "Present"
+        }
+      ]
+    },
+    "Shradha K. Somani": {
+      "name": "Shradha K. Somani",
+      "categories": [
+        "Independent"
+      ],
+      "roles": [
+        {
+          "entity": "NPCI",
+          "role": "Director",
+          "start": "~2022",
+          "end": "Present"
+        }
+      ]
+    },
+    "Prof. H.K. Sreedhar": {
+      "name": "Prof. H.K. Sreedhar",
+      "categories": [
+        "Independent"
+      ],
+      "roles": [
+        {
+          "entity": "NPCI",
+          "role": "Director",
+          "start": "~2022",
+          "end": "Present"
+        }
+      ]
+    },
+    "Dr. A.S. Ramasastri": {
+      "name": "Dr. A.S. Ramasastri",
+      "categories": [
+        "RBI-insider"
+      ],
+      "roles": [
+        {
+          "entity": "IDRBT",
+          "role": "Former Director",
+          "start": "~2016",
+          "end": "2023"
+        }
+      ]
+    },
+    "Dr. B. Sambamurthy": {
+      "name": "Dr. B. Sambamurthy",
+      "categories": [
+        "RBI-insider"
+      ],
+      "roles": [
+        {
+          "entity": "IDRBT",
+          "role": "Former Director",
+          "start": "~2006",
+          "end": "~2016"
+        }
+      ]
+    },
+    "Dr. V.N. Sastry": {
+      "name": "Dr. V.N. Sastry",
+      "categories": [
+        "RBI-insider"
+      ],
+      "roles": [
+        {
+          "entity": "IDRBT",
+          "role": "Former Director",
+          "start": "~2001",
+          "end": "~2006"
+        }
+      ]
+    },
+    "Dr. N. Viswanadham": {
+      "name": "Dr. N. Viswanadham",
+      "categories": [
+        "Independent"
+      ],
+      "roles": [
+        {
+          "entity": "IDRBT",
+          "role": "Founding Director",
+          "start": "1996",
+          "end": "~2001"
+        }
+      ]
+    }
+  }
+}

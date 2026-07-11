@@ -24,11 +24,12 @@ def wrap(title, body, is_index=False):
       <div class="logo">Deep<span>Seeking</span> RBI</div>
       <nav>
         <a href="/deepseekingrbi/">Home</a>
-        <a href="/deepseekingrbi/chapters/chapter-1">Chapter 1</a>
-        <a href="/deepseekingrbi/chapters/chapter-2">Chapter 2</a>
-        <a href="/deepseekingrbi/chapters/chapter-3">Chapter 3</a>
+        <a href="/deepseekingrbi/chapters/chapter-1">Ch.1 - IKCON</a>
+        <a href="/deepseekingrbi/chapters/chapter-2">Ch.2 - Revolving Door</a>
+        <a href="/deepseekingrbi/chapters/revolving-door-database">Revolving Door DB</a>
+        <a href="/deepseekingrbi/chapters/chapter-3">Ch.3 - Proliferation</a>
         <a href="/deepseekingrbi/chapters/iftas-deep-dive">IFTAS</a>
-        <a href="/deepseekingrbi/chapters/transparency-matrix">Matrix</a>
+        <a href="/deepseekingrbi/chapters/transparency-matrix">Transparency</a>
         <a href="/deepseekingrbi/book/full-book">Full Book</a>
       </nav>
     </header>"""
@@ -180,9 +181,11 @@ def build():
         ("index", "DeepSeeking Accountability in RBI", True, None),
         ("chapters/chapter-1", "Chapter 1: The IKCON Award", False, BASE / "chapters" / "rbi_governance.md"),
         ("chapters/chapter-2", "Chapter 2: The Revolving Door", False, BASE / "chapters" / "rbi_governance.md"),
+        ("chapters/revolving-door-database", "Revolving Door Database", False, BASE / "chapters" / "revolving-door.md"),
         ("chapters/chapter-3", "Chapter 3: Too Many Entities, No Accountability", False, BASE / "chapters" / "rbi_governance.md"),
         ("chapters/iftas-deep-dive", "Chapter 4: IFTAS — The Clawback", False, BASE / "chapters" / "iftas-deep-dive.md"),
         ("chapters/historical-survey", "Historical Survey", False, BASE / "chapters" / "rbi-subsidiaries-survey.md"),
+        ("chapters/transparency-matrix", "Transparency & Accountability Matrix", False, BASE / "chapters" / "transparency-matrix.md"),
         ("annexures/reference-matrix", "Reference Matrix", False, BASE / "annexures" / "reference-matrix.md"),
     ]
     
@@ -198,6 +201,7 @@ def build():
 <ol class="chapter-list" style="margin-top:1rem;">
 <li><span class="title"><a href="chapters/chapter-1">Chapter 1: The IKCON Award</a></span><br><span class="desc">Reconstructing the high-probability governance failure — no-tender award, byelaw amendment allegations, and the IFTAS→IKCON revolving door.</span></li>
 <li><span class="title"><a href="chapters/chapter-2">Chapter 2: The Revolving Door at IDRBT</a></span><br><span class="desc">Deepak Kumar's simultaneous directorships, the 3-month placeholder appointment, and the Governing Council's structural conflicts.</span></li>
+<li><span class="title"><a href="chapters/revolving-door-database">Revolving Door Database</a></span><br><span class="desc">Evidence-backed analysis of 29 identifiable individuals across 6 entities — 65% are RBI insiders. Entity-by-entity classification with governance impact.</span></li>
 <li><span class="title"><a href="chapters/chapter-3">Chapter 3: Too Many Entities, No Accountability</a></span><br><span class="desc">How seven RBI-controlled entities with overlapping mandates create diffuse responsibility and zero external oversight.</span></li>
 <li><span class="title"><a href="chapters/iftas-deep-dive">Chapter 4: IFTAS — The Clawback That Explains Everything</a></span><br><span class="desc">The 2009 Rangarajan Committee, INFINET/SFMS transfer, 2019 RBI acquisition — the template for asset consolidation.</span></li>
 <li><span class="title"><a href="chapters/transparency-matrix">Chapter 5: Transparency & Accountability Matrix</a></span><br><span class="desc">9-dimension accountability audit of all RBI IT arms across RTI, CAG, legal structure, and board independence.</span></li>
@@ -262,6 +266,13 @@ def build():
     print("Written: transparency-matrix.html")
     
     # Reference matrix annexure
+    # Revolving door database
+    with open(BASE / "chapters" / "revolving-door.md") as f:
+        revolving = f.read()
+    with open(CHAPTERS_DIR / "revolving-door-database.html", "w") as f:
+        f.write(wrap("Revolving Door Database", md_to_html(revolving)))
+    print("Written: revolving-door-database.html")
+
     with open(BASE / "annexures" / "reference-matrix.md") as f:
         ref_matrix = f.read()
     with open(ANNEXURES_DIR / "reference-matrix.html", "w") as f:
