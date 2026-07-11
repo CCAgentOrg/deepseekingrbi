@@ -31,6 +31,7 @@ def wrap(title, body, is_index=False):
         <a href="/deepseekingrbi/chapters/iftas-deep-dive">IFTAS</a>
         <a href="/deepseekingrbi/chapters/transparency-matrix">Transparency</a>
         <a href="/deepseekingrbi/book/full-book">Full Book</a>
+        <a href="/deepseekingrbi/DeepSeeking_RBI_Report.pdf">PDF</a>
       </nav>
     </header>"""
     return f"""<!DOCTYPE html>
@@ -234,6 +235,11 @@ def build():
 <li><span class="title"><a href="chapters/transparency-matrix">Chapter 5: Transparency & Accountability Matrix</a></span><br><span class="desc">9-dimension accountability audit of all RBI IT arms across RTI, CAG, legal structure, and board independence.</span></li>
 <li><span class="title"><a href="chapters/historical-survey">Historical Survey of RBI Subsidiaries</a></span><br><span class="desc">Comprehensive historical overview of RBI's entity creation and governance patterns.</span></li>
 </ol>
+"""
+    
+    index_html += """
+<h2 style="margin-top:3rem;">Download</h2>
+<p><a href="/deepseekingrbi/DeepSeeking_RBI_Report.pdf" class="download-btn">📄 Download Full Report (PDF, 63 pages)</a></p>
 """
     
     with open(WEBSITE / "index.html", "w") as f:
