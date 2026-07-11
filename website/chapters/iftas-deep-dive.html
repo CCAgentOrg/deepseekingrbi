@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IFTAS Deep-Dive — DeepSeeking Accountability in RBI</title>
+<link rel="stylesheet" href="/deepseekingrbi/assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+      <div class="logo">Deep<span>Seeking</span> RBI</div>
+      <nav>
+        <a href="/deepseekingrbi/">Home</a>
+        <a href="/deepseekingrbi/chapters/chapter-1">Chapter 1</a>
+        <a href="/deepseekingrbi/chapters/chapter-2">Chapter 2</a>
+        <a href="/deepseekingrbi/chapters/chapter-3">Chapter 3</a>
+        <a href="/deepseekingrbi/chapters/iftas-deep-dive">IFTAS</a>
+        <a href="/deepseekingrbi/chapters/transparency-matrix">Matrix</a>
+        <a href="/deepseekingrbi/book/full-book">Full Book</a>
+      </nav>
+    </header>
+<div class="chapter">
+<h1>IFTAS: The Clawback — A Governance Deep Dive</h1>
+<blockquote><p><strong>Thesis</strong>: IFTAS (Indian Financial Technology and Allied Services) is the clearest demonstration of RBI's entity lifecycle template: build infrastructure in an accountable entity (IDRBT), spin it off to a less transparent structure (IFTAS Section 8), then claw it back under direct RBI control — all without market pricing, public accounting, or independent oversight. The IFTAS story is not a success story; it is a governance case study in asset consolidation through institutional churn.</p></blockquote>
+<hr>
+<h2>1. What Is IFTAS?</h2>
+<p>IFTAS is a <strong>Section 8 (not-for-profit) company</strong>, incorporated on <strong>February 2, 2015</strong> (CIN: U74900TG2015NPL097485), headquartered in Mumbai. It operates the core technology infrastructure that underpins India's interbank payment systems — networks and platforms that every bank in the country depends on for daily operations. <sup><a href="#ref-1">[1]</a></sup></p>
+<p><strong>Registered office</strong>: Shaikpet, Telangana. Authorised capital: ₹50 crore. Paid-up capital: ₹1 lakh. <sup><a href="#ref-2">[2]</a></sup></p>
+<hr>
+<h2>2. The Infrastructure IFTAS Controls</h2>
+<p>IFTAS operates the following critical national infrastructure, all originally built by IDRBT over 15+ years: <sup><a href="#ref-3">[3]</a></sup></p>
+<table>
+<thead><tr>
+<th>Asset</th>
+<th>Original Launch</th>
+<th>Built By</th>
+<th>Transferred to IFTAS</th>
+<th>Current Operator</th>
+</tr></thead><tbody>
+<tr>
+<td><strong>INFINET</strong> (Indian Financial Network)</td>
+<td>June 19, 1999</td>
+<td>IDRBT</td>
+<td>April 1, 2016</td>
+<td>IFTAS</td>
+</tr>
+<tr>
+<td><strong>SFMS</strong> (Structured Financial Messaging System)</td>
+<td>December 14, 2001</td>
+<td>IDRBT</td>
+<td>April 1, 2016</td>
+<td>IFTAS</td>
+</tr>
+<tr>
+<td><strong>IBCC</strong> (Indian Banking Community Cloud)</td>
+<td>August 2, 2013</td>
+<td>IDRBT</td>
+<td>April 1, 2016</td>
+<td>IFTAS</td>
+</tr>
+<tr>
+<td><strong>NFS</strong> (National Financial Switch)</td>
+<td>August 27, 2004</td>
+<td>IDRBT</td>
+<td>Transferred to NPCI in 2010</td>
+<td>NPCI</td>
+</tr>
+</tbody></table>
+<p><strong>INFINET</strong> is India's interbank network — a Closed User Group (CUG) MPLS network connecting 300+ banks and financial institutions. It is the transport layer for RTGS, NEFT, and other critical payment systems. IFTAS led the transition to INFINET 3.0 using SD-WAN technology, managing near-100% network availability. <sup><a href="#ref-4">[4]</a></sup></p>
+<p><strong>SFMS</strong> is India's domestic equivalent of SWIFT — the ISO 20022-compliant messaging standard that enables RTGS, NEFT, Letters of Credit, Bank Guarantees, and other interbank financial messages. Every RTGS and NEFT transaction in India flows through SFMS. <sup><a href="#ref-5">[5]</a></sup></p>
+<p><strong>IBCC</strong> is the Indian Banking Community Cloud, a sovereign multi-region cloud providing infrastructure-as-a-service (IaaS), platform-as-a-service (PaaS), disaster-recovery-as-a-service (DRaaS), and SaaS to banks, particularly cooperative banks and RRBs that cannot afford private cloud infrastructure. <sup><a href="#ref-6">[6]</a></sup></p>
+<p><strong>The governance significance</strong>: IFTAS operates the messaging and network infrastructure that <strong>every payment in India depends on</strong>. Any disruption to IFTAS paralyses RTGS, NEFT, and all interbank settlements. This is not a niche function — it is <strong>tier-1 national financial infrastructure</strong>, operated by a company with no statutory mandate, no CAG audit, and no public accountability. <sup><a href="#ref-7">[7]</a></sup></p>
+<hr>
+<h2>3. The Timeline: Entity Lifecycle as Governance Template</h2>
+<h3>Phase 1: Build (1996–2009) — IDRBT</h3>
+<p><strong>IDRBT</strong> was established in 1996 as a Society under the Societies Registration Act, 1860, fully funded by RBI. Over its first 13 years, it built India's entire banking technology stack: INFINET, SFMS, NFS, and later IBCC. These were built using public money (RBI allocations to IDRBT) and IDRBT's captive talent pool, including 400+ technical staff trained in banking technology. <sup><a href="#ref-3">[3]</a></sup></p>
+<h3>Phase 2: Recommend Divestiture (2009) — EERC / Rangarajan Committee</h3>
+<p>In 2009, RBI constituted the <strong>External Expert Review Committee (EERC)</strong> chaired by former RBI Governor <strong>C. Rangarajan</strong> to evaluate IDRBT's role. The committee recommended IDRBT focus on R&D and "shed its function of providing various services." <sup><a href="#ref-3">[3]</a></sup></p>
+<p><strong>Key figure</strong>: <strong>N.S. Vishwanathan</strong> — now Chair of IDRBT's Governing Council — was a <strong>member of this committee</strong>. He helped write the recommendation that hollowed out IDRBT and now chairs the body overseeing the hollowed-out institution. <sup><a href="#ref-8">[8]</a></sup></p>
+<h3>Phase 3: Spin Off (2015–2016) — IFTAS Created</h3>
+<p>IFTAS was incorporated on February 2, 2015 as a Section 8 company. The IDRBT Director served as IFTAS's <strong>first Chairman</strong>. On April 1, 2016, IFTAS took over INFINET, SFMS, and IBCC from IDRBT — effectively transferring 15+ years of intellectual property, operational know-how, and infrastructure built by IDRBT to a new entity. <sup><a href="#ref-1">[1]</a></sup><sup><a href="#ref-3">[3]</a></sup></p>
+<p><strong>Employees transferred</strong>: <strong>431+ IDRBT employees</strong> — the core technical team — moved to IFTAS as part of the spin-off. This effectively stripped IDRBT of its operational capability. <sup><a href="#ref-3">[3]</a></sup></p>
+<p><strong>Governance issue</strong>: No <strong>valuation</strong> of these assets was ever published. No <strong>market pricing</strong> was established for the transfer. The transfer happened between a Society (IDRBT) and a Section 8 company (IFTAS) — both controlled by the same network of RBI insiders. <sup><a href="#ref-7">[7]</a></sup></p>
+<h3>Phase 4: Claw Back (2019) — RBI Acquires IFTAS</h3>
+<p>In March 2019, the <strong>Reserve Bank of India wholly acquired IFTAS</strong>. <sup><a href="#ref-1">[1]</a></sup><sup><a href="#ref-3">[3]</a></sup> The infrastructure that RBI built through IDRBT at public expense was spun off to a Section 8 company, and then acquired back by RBI — now with <strong>full direct control</strong> and <strong>no external oversight</strong>.</p>
+<p><strong>The arithmetic</strong>: RBI spent taxpayer money to create IDRBT → IDRBT built INFINET, SFMS, IBCC → these were transferred to IFTAS without valuation → RBI acquired IFTAS (price not disclosed). The same assets changed pockets from RBI → IDRBT → IFTAS → RBI, each step reducing accountability. <sup><a href="#ref-7">[7]</a></sup></p>
+<h3>Phase 5: Consolidation (2019–present) — IFTAS as Direct RBI Subsidiary</h3>
+<p>Since 2019, IFTAS has operated as a wholly owned RBI subsidiary. It has grown significantly — from a handful of RBI seconded staff to <strong>424–486 employees</strong> (as of 2025–26). <sup><a href="#ref-2">[2]</a></sup><sup><a href="#ref-9">[9]</a></sup> Revenue grew to approximately <strong>₹455 crore</strong> in FY2024 (up 147% year-on-year from ~₹184 crore), placing it in the <strong>$50–100 million revenue range</strong>. <sup><a href="#ref-9">[9]</a></sup><sup><a href="#ref-10">[10]</a></sup></p>
+<hr>
+<h2>4. IFTAS Board of Directors: The Revolving Door</h2>
+<h3>Current Directors (as of latest MCA filings): <sup><a href="#ref-2">[2]</a></sup><sup><a href="#ref-11">[11]</a></sup></h3>
+<table>
+<thead><tr>
+<th>Name</th>
+<th>Designation</th>
+<th>Appointment Date</th>
+<th>Other Affiliations</th>
+</tr></thead><tbody>
+<tr>
+<td><strong>Santosh Vilas Mohile</strong></td>
+<td>CEO & Director</td>
+<td>July 10, 2023</td>
+<td>Career RBI/PSU banker</td>
+</tr>
+<tr>
+<td><strong>Vivek Deep</strong></td>
+<td>Director</td>
+<td>May 26, 2021</td>
+<td>RBI Executive Director</td>
+</tr>
+<tr>
+<td><strong>Sivakumar Gopalan</strong></td>
+<td>Director</td>
+<td>July 18, 2019</td>
+<td>IIBF, RBL Bank board</td>
+</tr>
+<tr>
+<td><strong>Shailendra Trivedi</strong></td>
+<td>Director</td>
+<td>March 11, 2022</td>
+<td>NPCI Board member</td>
+</tr>
+<tr>
+<td><strong>Seshabhadrasrinivasa Mallikarjunarao Chamarty</strong></td>
+<td>Director</td>
+<td>July 20, 2022</td>
+<td>Axis Bank, NPCIL board</td>
+</tr>
+<tr>
+<td><strong>Krishnamurthy Hanumantha Rao</strong></td>
+<td>Director</td>
+<td>July 18, 2019</td>
+<td>RBIH Board member</td>
+</tr>
+</tbody></table>
+<h3>Former Directors of Significance: <sup><a href="#ref-2">[2]</a></sup><sup><a href="#ref-12">[12]</a></sup></h3>
+<p>- <strong>Deepak Kumar</strong> — Director on IFTAS Board; now IDRBT Director (2024–present), former RBI ED (IT Department); also on NPCI, ReBIT, RBIH, IOB boards</p>
+<p>- <strong>T. Rabi Sankar</strong> — Chairman of IFTAS (appointed May 2020); RBI Deputy Governor</p>
+<p>- <strong>Dr. N. Rajendran</strong> — CEO of IFTAS (May 2020 – 2023); academic/researcher</p>
+<p>- <strong>Rajendran Narayanan</strong> — Director (appointed May 2020)</p>
+<h3>Directorship Overlaps with Other RBI Entities: <sup><a href="#ref-11">[11]</a></sup><sup><a href="#ref-13">[13]</a></sup></h3>
+<p><strong>Same directors serve on multiple RBI entity boards</strong>:</p>
+<p>- <strong>Shailendra Trivedi</strong> → IFTAS Board + NPCI Board + RBIH Board</p>
+<p>- <strong>Krishnamurthy Hanumantha Rao</strong> → IFTAS Board + RBIH Board</p>
+<p>- <strong>Deepak Kumar (former)</strong> → IFTAS Board + IDRBT Board + NPCI Board + ReBIT Board + RBIH Board + IOB Board</p>
+<p>- <strong>T. Rabi Sankar (former)</strong> → IFTAS Chairman + RBI Deputy Governor + RBIH Governing Council</p>
+<p><strong>Governance problem</strong>: These directors are not independent. They are the same cadre of RBI officials rotating through all the entities they are supposed to oversee independently. An IFTAS board member is simultaneously on the board of NPCI (IFTAS's client), RBIH (IFTAS's peer), and IDRBT (IFTAS's predecessor). No one at the table has a genuinely independent perspective.</p>
+<hr>
+<h2>5. The Auditor: Chhajed & Doshi</h2>
+<p>IFTAS is audited by <strong>Chhajed & Doshi</strong>, a Mumbai-based firm. <sup><a href="#ref-2">[2]</a></sup> The Section 8 company structure requires only standard MCA filings (AOC-4, MGT-7) and board compliance — <strong>not CAG audit</strong>, not Parliamentary scrutiny, not public RTI.</p>
+<p><strong>Governance comparison</strong>: If IFTAS were a government entity, it would be subject to:</p>
+<p>- CAG audit</p>
+<p>- Parliamentary questions</p>
+<p>- RTI on all decisions</p>
+<p>- General Financial Rules (GFR) for procurement</p>
+<p>- Central Vigilance Commission oversight</p>
+<p>As a Section 8 company wholly owned by RBI, it is subject to: <sup><a href="#ref-7">[7]</a></sup></p>
+<p>- MCA filings (private, not proactively published)</p>
+<p>- Board of Directors (all RBI network insiders)</p>
+<p>- Its own internal audit function</p>
+<p><strong>Summary</strong>: IFTAS has less external accountability today than IDRBT had when it was a Society.</p>
+<hr>
+<h2>6. Audited Financials: What We Know</h2>
+<p>IFTAS files annual returns with the Registrar of Companies (ROC). The available data from FY2023–2024 shows: <sup><a href="#ref-2">[2]</a></sup><sup><a href="#ref-9">[9]</a></sup><sup><a href="#ref-14">[14]</a></sup></p>
+<table>
+<thead><tr>
+<th>Metric</th>
+<th>FY2024 Estimate</th>
+<th>FY2023</th>
+<th>Source</th>
+</tr></thead><tbody>
+<tr>
+<td>Revenue</td>
+<td>~₹455 crore (≈$55M)</td>
+<td>~₹184 crore</td>
+<td>Tracxn, TheCompanyCheck</td>
+</tr>
+<tr>
+<td>Employee count</td>
+<td>~424–486</td>
+<td>~366</td>
+<td>Tracxn, LinkedIn</td>
+</tr>
+<tr>
+<td>Revenue per employee</td>
+<td>~$115,000–162,000</td>
+<td>—</td>
+<td>Calculated</td>
+</tr>
+<tr>
+<td>Revenue growth (YoY)</td>
+<td>~147%</td>
+<td>—</td>
+<td>Tracxn</td>
+</tr>
+<tr>
+<td>Share capital (authorised)</td>
+<td>₹50 crore</td>
+<td>₹50 crore</td>
+<td>ROC/MCA</td>
+</tr>
+<tr>
+<td>Share capital (paid-up)</td>
+<td>₹1 lakh</td>
+<td>₹1 lakh</td>
+<td>ROC/MCA</td>
+</tr>
+<tr>
+<td>Promoter holding</td>
+<td>100% (RBI)</td>
+<td>100% (RBI)</td>
+<td>ROC/MCA</td>
+</tr>
+</tbody></table>
+<p><strong>Note on the financials</strong>: The precise audited financial statements (balance sheet, P&L, cash flow, notes to accounts) are <strong>not publicly available</strong> in full detail — they require access to MCA portal or paid databases like TheCompanyCheck/Tracxn. The revenue figure of ₹455 crore in FY2024 represents a <strong>147% year-on-year jump</strong> that merits examination: is this organic growth in service fees charged to banks, asset infusion from RBI, or accounting reclassification? No published note explains this. <sup><a href="#ref-7">[7]</a></sup><sup><a href="#ref-14">[14]</a></sup></p>
+<p>The <strong>paid-up capital of ₹1 lakh</strong> (on authorised capital of ₹50 crore) is a common pattern for not-for-profit Section 8 companies. The company carries <strong>no charges (loans)</strong> — meaning it appears to have no external borrowings, which is notable for a capital-intensive infrastructure operator. <sup><a href="#ref-2">[2]</a></sup></p>
+<hr>
+<h2>7. The IFTAS → IKCON Connection: Revolving Door to the Private Sector</h2>
+<p>The Mahesh Jarati connection — linking IKCON Technologies (the private vendor that received the no-tender <code>.bank.in</code> contract from IDRBT) to IFTAS — is the critical bridge between the IFTAS governance story and the governance debacle documented in Chapter 1. <sup><a href="#ref-15">[15]</a></sup></p>
+<p><strong>The chain</strong>:</p>
+<p>1. <strong>IFTAS</strong> manages technology for cooperative banks — the exact banks that are targets of the <code>.bank.in</code> mandate</p>
+<p>2. <strong>Mahesh Jarati</strong> worked at IFTAS — gaining knowledge of cooperative bank technology procurement, vendor landscapes, and decision-maker relationships</p>
+<p>3. <strong>Mahesh Jarati moved to IKCON Technologies</strong> — a small private company with no domain registry track record</p>
+<p>4. <strong>IKCON received the .bank.in contract</strong> — from IDRBT, without competitive tender, despite IKCON having no certificate authority or registry experience</p>
+<p>5. <strong>Deepak Kumar</strong> — now IDRBT Director, formerly IFTAS Board member — approved the procurement</p>
+<p><strong>The governance question</strong>: How did the person who oversaw cooperative bank technology procurement (at IFTAS) end up at the exact vendor that received a no-tender contract from the regulator's technology arm (IDRBT) to serve those same cooperative banks? This is the definition of a <strong>revolving-door governance conflict</strong>.</p>
+<hr>
+<h2>8. The Clawback Template: IFTAS as Precedent</h2>
+<p>The IFTAS clawback establishes a template that RBI has since applied (or appears to be applying) to other entities: <sup><a href="#ref-7">[7]</a></sup></p>
+<table>
+<thead><tr>
+<th>Step</th>
+<th>IFTAS</th>
+<th>Applicable elsewhere?</th>
+</tr></thead><tbody>
+<tr>
+<td><strong>Build in a transparent entity</strong></td>
+<td>IDRBT (Society, weaker RTI but still some accountability)</td>
+<td>IDRBT itself was the seed</td>
+</tr>
+<tr>
+<td><strong>Prompt a review recommending spin-off</strong></td>
+<td>Rangarajan Committee (2009)</td>
+<td>ReBIT, RBIH, NPCI all have functional overlaps</td>
+</tr>
+<tr>
+<td><strong>Create a less transparent entity</strong></td>
+<td>Section 8 company (IFTAS) — lower accountability</td>
+<td>ReBIT (Pvt Ltd), RBIH (Section 8)</td>
+</tr>
+<tr>
+<td><strong>Transfer assets without valuation</strong></td>
+<td>INFINET, SFMS, IBCC — no published valuation</td>
+<td>Implicit in other entity transfers</td>
+</tr>
+<tr>
+<td><strong>Acquire the entity</strong></td>
+<td>RBI acquired IFTAS in 2019</td>
+<td>NPCI for-profit conversion debate</td>
+</tr>
+<tr>
+<td><strong>Now control infrastructure directly</strong></td>
+<td>INFINET/SFMS/IBCC under direct RBI control</td>
+<td>ReBIT handles RBI's cybersecurity, RBIH drives innovation</td>
+</tr>
+</tbody></table>
+<p><strong>The governance lesson</strong>: Each step in this template reduces accountability. The transfer from IDRBT → IFTAS eliminated the (weak) Society-based accountability. The acquisition by RBI eliminated the (already weak) Section 8 governance structure and placed everything under direct RBI control — where no CAG, no RTI, and no external board can scrutinise it.</p>
+<hr>
+<h2>9. What Proper Governance Would Require</h2>
+<p>For an entity operating tier-1 national financial infrastructure (RTGS/NEFT messaging, interbank network, banking cloud), the minimum governance requirements should be: <sup><a href="#ref-7">[7]</a></sup></p>
+<table>
+<thead><tr>
+<th>Requirement</th>
+<th>Current Status</th>
+<th>Gap</th>
+</tr></thead><tbody>
+<tr>
+<td><strong>Statutory mandate</strong></td>
+<td>Section 8 company, no statutory basis</td>
+<td>Should be created by statute with defined powers and limits</td>
+</tr>
+<tr>
+<td><strong>CAG audit</strong></td>
+<td>Private audit (Chhajed & Doshi)</td>
+<td>Required for any entity using RBI/public funds for national infra</td>
+</tr>
+<tr>
+<td><strong>Public annual report</strong></td>
+<td>MCA filings only, not proactively published</td>
+<td>Mandatory publication of detailed audited financials</td>
+</tr>
+<tr>
+<td><strong>RTI applicability</strong></td>
+<td>Not applicable (Section 8, not govt)</td>
+<td>Explicit inclusion in RTI Act as entity performing public function</td>
+</tr>
+<tr>
+<td><strong>Independent directors</strong></td>
+<td>All directors are RBI network insiders</td>
+<td>Majority independent, with cooling-off from RBI</td>
+</tr>
+<tr>
+<td><strong>Competitive procurement</strong></td>
+<td>Not verifiable (no public tenders published)</td>
+<td>All procurement above threshold must be published</td>
+</tr>
+<tr>
+<td><strong>Board minutes</strong></td>
+<td>Not public</td>
+<td>Board minutes must be published with redactions only for genuine commercial sensitivity</td>
+</tr>
+<tr>
+<td><strong>Conflict of interest register</strong></td>
+<td>Not public</td>
+<td>Public register of all directorships, vendor relationships</td>
+</tr>
+<tr>
+<td><strong>Asset valuation disclosure</strong></td>
+<td>No valuation of IDRBT→IFTAS transfer published</td>
+<td>All inter-entity transfers must be at market price with independent valuation</td>
+</tr>
+<tr>
+<td><strong>Whistleblower mechanism</strong></td>
+<td>Not publicly documented</td>
+<td>Secure anonymous channel</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>10. Summary: The Governance Scorecard</h2>
+<table>
+<thead><tr>
+<th>Dimension</th>
+<th>IFTAS Rating</th>
+<th>Explanation</th>
+</tr></thead><tbody>
+<tr>
+<td><strong>Transparency</strong></td>
+<td>❌ Poor</td>
+<td>MCA filings exist but not proactively published; no public board minutes; no public procurement records</td>
+</tr>
+<tr>
+<td><strong>Board independence</strong></td>
+<td>❌ None</td>
+<td>All directors are RBI network insiders or bank/PSU veterans with RBI relationships</td>
+</tr>
+<tr>
+<td><strong>External oversight</strong></td>
+<td>❌ None</td>
+<td>No CAG, no RTI, no parliamentary scrutiny</td>
+</tr>
+<tr>
+<td><strong>Audit quality</strong></td>
+<td>⚠️ Weak</td>
+<td>Private audit by Chhajed & Doshi; no statutory audit mandate</td>
+</tr>
+<tr>
+<td><strong>Procurement integrity</strong></td>
+<td>❌ Unverifiable</td>
+<td>No public tenders published; cannot verify competitive process</td>
+</tr>
+<tr>
+<td><strong>Conflict management</strong></td>
+<td>❌ None</td>
+<td>Same directors serve across all RBI entities; no cooling-off mechanism</td>
+</tr>
+<tr>
+<td><strong>Financial disclosure</strong></td>
+<td>⚠️ Minimal</td>
+<td>Revenue/profit data from MCA filings; no detailed notes or segment reporting</td>
+</tr>
+<tr>
+<td><strong>Public accountability</strong></td>
+<td>❌ None</td>
+<td>Not a public authority; no obligation to answer public questions</td>
+</tr>
+<tr>
+<td><strong>Institutional stability</strong></td>
+<td>❌ Precarious</td>
+<td>Entity exists at RBI's pleasure; assets were built, transferred, clawed back, all without institutional guarantees</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>References</h2>
+<p class="footnote" id="ref-1"><strong>[1]</strong> IDRBT — IFTAS page: Section 8 company promoted by IDRBT; took over INFINET, SFMS, IBCC on April 1, 2016; wholly acquired by RBI in March 2019. <a href="https://www.idrbt.ac.in/iftas/">https://www.idrbt.ac.in/iftas/</a></p>
+<p class="footnote" id="ref-2"><strong>[2]</strong> TheCompanyCheck — Indian Financial Technology And Allied Services <a href="IFTAS">IFTAS</a> Company Profile: CIN U74900TG2015NPL097485, Section 8, incorporatd Feb 2, 2015; authorised capital ₹50Cr, paid-up ₹1L; 6 current directors; auditor Chhajed & Doshi; no charges; 100% promoter holding. <a href="https://www.thecompanycheck.com/company/indian-financial-technology-and-allied-services/U74900TG2015NPL097485">https://www.thecompanycheck.com/company/indian-financial-technology-and-allied-services/U74900TG2015NPL097485</a></p>
+<p class="footnote" id="ref-3"><strong>[3]</strong> IDRBT — The Journey of IDRBT page: EERC <a href="Rangarajan Committee">Rangarajan Committee</a> 2009 recommendation to shed services; IFTAS creation; transfer of INFINET, SFMS, IBCC; employee transfer of 431+ staff; RBI acquisition in 2019. <a href="https://www.idrbt.ac.in/the-journey-of-idrbt/">https://www.idrbt.ac.in/the-journey-of-idrbt/</a></p>
+<p class="footnote" id="ref-4"><strong>[4]</strong> LinkedIn — IFTAS company page: INFINET 3.0 SD-WAN transition, 300+ banks, near-100% availability. <a href="https://in.linkedin.com/company/indian-financial-technology-&-allied-services">https://in.linkedin.com/company/indian-financial-technology-&-allied-services</a></p>
+<p class="footnote" id="ref-5"><strong>[5]</strong> Wikipedia — Structured Financial Messaging System: SFMS as India's SWIFT alternative, managed by IFTAS since April 2016. <a href="https://en.wikipedia.org/wiki/Structured_Financial_Messaging_System">https://en.wikipedia.org/wiki/Structured_Financial_Messaging_System</a></p>
+<p class="footnote" id="ref-6"><strong>[6]</strong> GrowJo — IFTAS profile: Section 8 non-profit, board from RBI/C-DAC/CCICI/IDRBT/NABARD; IBCC, INFINET, SFMS; $70M revenue estimate. <a href="https://growjo.com/company/Indian_Financial_Technology_and_Allied_Services_(IFTAS">https://growjo.com/company/Indian_Financial_Technology_and_Allied_Services_(IFTAS</a>)</p>
+<p class="footnote" id="ref-7"><strong>[7]</strong> CashlessConsumer — RBI Governance Report, Chapters 2 & 3: Governance analysis of RBI entity structure, revolving door pattern, legal form bypass template. <a href="File: `file deepseekingrbi/chapters/rbi_governance.md`">File: `file deepseekingrbi/chapters/rbi_governance.md`</a></p>
+<p class="footnote" id="ref-8"><strong>[8]</strong> RBI Press Release — RBIH Governing Council inauguration <a href="March 2022">March 2022</a>: N.S. Vishwanathan as IDRBT Governing Council Chair; his role on Rangarajan Committee <a href="EERC">EERC</a> confirmed across historical record. <a href="https://www.rbi.org.in/scripts/FS_PressRelease.aspx?fn=9&prid=50666">https://www.rbi.org.in/scripts/FS_PressRelease.aspx?fn=9&prid=50666</a></p>
+<p class="footnote" id="ref-9"><strong>[9]</strong> Tracxn — IFTAS Company Profile: Revenue $50–100M range, employee count 424 <a href="Jun 2025">Jun 2025</a>, revenue ~₹455Cr <a href="~$55M">~$55M</a> in FY2024. <a href="https://tracxn.com/d/companies/iftas/__iYjz8zkN4PlOUl2KpVayJWhZzi5Rya4dQWFpElcWjZY">https://tracxn.com/d/companies/iftas/__iYjz8zkN4PlOUl2KpVayJWhZzi5Rya4dQWFpElcWjZY</a></p>
+<p class="footnote" id="ref-10"><strong>[10]</strong> RocketReach — IFTAS profile: Revenue ~$19.9M <a href="2026">2026</a>, ~486 employees, HQ Mumbai, INFINET/SFMS/GIFT/IFS Cloud operator. <a href="https://rocketreach.co/iftas-indian-financial-technology-allied-services-profile_b457c913fc9b2b9b">https://rocketreach.co/iftas-indian-financial-technology-allied-services-profile_b457c913fc9b2b9b</a></p>
+<p class="footnote" id="ref-11"><strong>[11]</strong> SensiBook — IFTAS Directors: Vivek Deep, Sivakumar Gopalan, Santosh Vilas Mohile, Shailendra Trivedi, Seshabhadrasrinivasa Mallikarjunarao Chamarty, Krishnamurthy Hanumantha Rao; common directorships with RBIH, NPCI, IIBF, Axis Bank, RBL Bank. <a href="https://www.sensibook.com/companies/1809961/U74900TG2015NPL097485/INDIAN-FINANCIAL-TECHNOLOGY-AND-ALLIED-SERVICES">https://www.sensibook.com/companies/1809961/U74900TG2015NPL097485/INDIAN-FINANCIAL-TECHNOLOGY-AND-ALLIED-SERVICES</a></p>
+<p class="footnote" id="ref-12"><strong>[12]</strong> PR Newswire India — IFTAS announces T. Rabi Sankar as Chairman and Dr. N. Rajendran as CEO <a href="May 2020">May 2020</a>. <a href="https://www.prnewswire.com/in/news-releases/iftas-announces-the-appointment-of-shri-t-rabi-sankar-as-chairman-and-dr-n-rajendran-as-chief-executive-officer-864142462.html">https://www.prnewswire.com/in/news-releases/iftas-announces-the-appointment-of-shri-t-rabi-sankar-as-chairman-and-dr-n-rajendran-as-chief-executive-officer-864142462.html</a></p>
+<p class="footnote" id="ref-13"><strong>[13]</strong> IDRBT — Director page: Deepak Kumar's directorships confirmed — IFTAS, NPCI, ReBIT, RBIH, IOB, IDRBT Governing Council. <a href="https://www.idrbt.ac.in/director">https://www.idrbt.ac.in/director</a></p>
+<p class="footnote" id="ref-14"><strong>[14]</strong> TheCompanyCheck — IFTAS Financials: FY2024 Revenue ₹455Cr <a href="147% YoY">147% YoY</a>, 100% promoter holding, no borrowings, ROE data available. <a href="https://www.thecompanycheck.com/company/indian-financial-technology-and-allied-services/U74900TG2015NPL097485#financials">https://www.thecompanycheck.com/company/indian-financial-technology-and-allied-services/U74900TG2015NPL097485#financials</a></p>
+<p class="footnote" id="ref-15"><strong>[15]</strong> Investigation notes — DeepakKumar.md: Mahesh Jarati <a href="IKCON">IKCON</a> ex-IFTAS; IKCON no-tender contract; byelaw amendment allegation. <a href="File: `file deepseekingrbi/chapters/DeepakKumar.md`">File: `file deepseekingrbi/chapters/DeepakKumar.md`</a></p>
+<hr>
+<h2>Appendix: Timeline Summary</h2>
+<table>
+<thead><tr>
+<th>Date</th>
+<th>Event</th>
+</tr></thead><tbody>
+<tr>
+<td>Jun 19, 1999</td>
+<td>INFINET launched by IDRBT</td>
+</tr>
+<tr>
+<td>Dec 14, 2001</td>
+<td>SFMS launched by IDRBT</td>
+</tr>
+<tr>
+<td>Aug 27, 2004</td>
+<td>NFS launched by IDRBT</td>
+</tr>
+<tr>
+<td>Jul 2009</td>
+<td>EERC (Rangarajan Committee) recommends IDRBT shed services</td>
+</tr>
+<tr>
+<td>Aug 2, 2013</td>
+<td>IBCC launched by IDRBT</td>
+</tr>
+<tr>
+<td><strong>Feb 2, 2015</strong></td>
+<td><strong>IFTAS incorporated as Section 8 company</strong></td>
+</tr>
+<tr>
+<td><strong>Apr 1, 2016</strong></td>
+<td><strong>INFINET, SFMS, IBCC transferred from IDRBT to IFTAS</strong>; 431+ staff transferred</td>
+</tr>
+<tr>
+<td><strong>Mar 2019</strong></td>
+<td><strong>RBI wholly acquires IFTAS</strong></td>
+</tr>
+<tr>
+<td>May 2020</td>
+<td>T. Rabi Sankar appointed IFTAS Chairman; Dr N. Rajendran CEO</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>IFTAS CEO transitions from Rajendran to Santosh Mohile</td>
+</tr>
+<tr>
+<td>FY2024</td>
+<td>IFTAS revenue reported ~₹455 crore (147% YoY growth)</td>
+</tr>
+</tbody></table>
+<hr>
+<p><em>Compiled: 2026-07-11. This is a living document. Financial data sourced from MCA filings via third-party aggregators; precise audited statements require direct MCA access. Companion files: <code>deepseekingrbi/chapters/rbi_governance.md</code>, <code>deepseekingrbi/chapters/DeepakKumar.md</code>, <code>deepseekingrbi/chapters/rbi-subsidiaries-survey.md</code>.</em></p>
+</div>
+<footer>
+  <p><strong>DeepSeeking Accountability in RBI</strong> — A governance investigation by <a href="https://cashlessconsumer.in">CashlessConsumer</a> | <a href="https://github.com/CCAgentOrg/deepseekingrbi">GitHub</a></p>
+</footer>
+</body>
+</html>

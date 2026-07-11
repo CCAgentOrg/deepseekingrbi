@@ -1,0 +1,152 @@
+:root {
+  --bg: #0f0f0f;
+  --fg: #e8e6e3;
+  --accent: #d4a85c;
+  --accent2: #8b6914;
+  --muted: #888;
+  --card: #1a1a1a;
+  --border: #2a2a2a;
+  --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--fg);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo { font-weight: 700; font-size: 1.1rem; letter-spacing: -0.02em; }
+header .logo span { color: var(--accent); }
+header nav a { margin-left: 1.5rem; font-size: 0.875rem; color: var(--muted); }
+header nav a:hover { color: var(--fg); }
+
+/* Hero */
+.hero {
+  padding: 6rem 2rem 4rem;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+.hero h1 { font-size: 3rem; font-weight: 800; letter-spacing: -0.03em; line-height: 1.15; }
+.hero h1 span { color: var(--accent); }
+.hero p { margin-top: 1.5rem; font-size: 1.125rem; color: var(--muted); max-width: 650px; margin-left: auto; margin-right: auto; }
+.hero .meta { margin-top: 1rem; font-size: 0.875rem; color: var(--muted); }
+
+/* Stats */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1px;
+  background: var(--border);
+  max-width: 800px;
+  margin: 2rem auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.stat {
+  background: var(--card);
+  padding: 1.5rem;
+  text-align: center;
+}
+.stat .num { font-size: 2rem; font-weight: 800; color: var(--accent); }
+.stat .label { font-size: 0.75rem; color: var(--muted); margin-top: 0.25rem; text-transform: uppercase; letter-spacing: 0.05em; }
+
+/* Sections */
+.section {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+.section h2 { font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem; }
+.section p { color: var(--muted); margin-bottom: 1rem; }
+
+/* Chapter list */
+.chapter-list { list-style: none; }
+.chapter-list li {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.chapter-list li:last-child { border-bottom: none; }
+.chapter-list .title { font-weight: 600; }
+.chapter-list .desc { font-size: 0.875rem; color: var(--muted); margin-top: 0.25rem; }
+
+/* Bypass template */
+.bypass-steps { counter-reset: step; margin-top: 1.5rem; }
+.bypass-step {
+  counter-increment: step;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  background: var(--card);
+  border-radius: 6px;
+  border-left: 3px solid var(--accent);
+}
+.bypass-step::before {
+  content: counter(step) ". ";
+  font-weight: 700;
+  color: var(--accent);
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid var(--border);
+  padding: 2rem;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.8125rem;
+}
+footer a { color: var(--accent); }
+
+/* Chapter page */
+.chapter { max-width: 750px; margin: 3rem auto; padding: 0 2rem; }
+.chapter h1 { font-size: 2rem; font-weight: 800; margin-bottom: 0.5rem; }
+.chapter .breadcrumb { font-size: 0.8125rem; color: var(--muted); margin-bottom: 2rem; }
+.chapter h2 { font-size: 1.375rem; margin-top: 2.5rem; margin-bottom: 0.75rem; }
+.chapter h3 { font-size: 1.125rem; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+.chapter p { margin-bottom: 1rem; color: rgba(232,230,227,0.85); }
+.chapter blockquote {
+  border-left: 3px solid var(--accent);
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: var(--muted);
+  font-style: italic;
+}
+.chapter ul, .chapter ol { margin: 0.5rem 0 1rem 1.5rem; color: rgba(232,230,227,0.85); }
+.chapter li { margin-bottom: 0.25rem; }
+.chapter strong { color: var(--fg); }
+.chapter table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.875rem; }
+.chapter th, .chapter td { padding: 0.5rem 0.75rem; border: 1px solid var(--border); text-align: left; }
+.chapter th { background: var(--card); font-weight: 600; }
+.chapter td { color: rgba(232,230,227,0.85); }
+.chapter hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+.chapter .footnote { font-size: 0.8125rem; color: var(--muted); }
+.chapter sup { font-size: 0.75rem; }
+.chapter sup a { color: var(--accent); }
+
+/* Code */
+code { font-family: var(--mono); font-size: 0.8125rem; background: var(--card); padding: 0.15em 0.35em; border-radius: 3px; }
+pre { background: var(--card); padding: 1rem; border-radius: 6px; overflow-x: auto; margin: 1rem 0; border: 1px solid var(--border); }
+pre code { background: none; padding: 0; }
+
+/* Responsive */
+@media (max-width: 640px) {
+  .hero { padding: 3rem 1.5rem 2rem; }
+  .hero h1 { font-size: 2rem; }
+  header { flex-direction: column; gap: 0.5rem; }
+  header nav a { margin: 0 0.75rem; }
+}

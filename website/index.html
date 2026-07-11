@@ -3,118 +3,51 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DeepSeeking Accountability in RBI</title>
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0d0d0d;color:#e0dcd0;line-height:1.7}
-header{background:linear-gradient(135deg,#0d0d0d 0%,#1a1a2e 100%);border-bottom:1px solid #333;padding:60px 20px 40px;text-align:center}
-header h1{font-size:2.4rem;font-weight:800;letter-spacing:-0.02em;color:#f0ebe0;max-width:720px;margin:0 auto 12px}
-header .subtitle{color:#a09880;font-size:1.1rem;max-width:600px;margin:0 auto 24px}
-header .meta{color:#706858;font-size:0.85rem}
-nav{background:#141414;border-bottom:1px solid #222;padding:12px 20px;text-align:center;position:sticky;top:0;z-index:100;backdrop-filter:blur(8px)}
-nav a{color:#c8b898;text-decoration:none;margin:0 14px;font-size:0.9rem;transition:color .2s}
-nav a:hover{color:#e6d4a4}
-.container{max-width:800px;margin:0 auto;padding:40px 20px}
-section{margin-bottom:48px}
-h2{font-size:1.6rem;color:#f0ebe0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid #2a2a2a}
-h3{font-size:1.15rem;color:#e0d4b8;margin:20px 0 10px}
-p{color:#b8b0a0;margin-bottom:14px}
-.code{background:#181818;border:1px solid #2a2a2a;border-radius:6px;padding:12px 16px;font-family:'SF Mono','Fira Code',monospace;font-size:0.85rem;overflow-x:auto;margin:14px 0;color:#b8b0a0}
-ul{list-style:none;margin:10px 0}
-li{padding:8px 0;border-bottom:1px solid #1a1a1a;color:#b8b0a0}
-li:before{content:"→ ";color:#c8b040}
-.btn{display:inline-block;background:#c8b040;color:#0d0d0d;padding:10px 28px;border-radius:6px;text-decoration:none;font-weight:600;margin:6px 8px 6px 0;transition:background .3s}
-.btn:hover{background:#d8c860}
-.btn-outline{background:transparent;border:1px solid #c8b040;color:#c8b040}
-.btn-outline:hover{background:#c8b040;color:#0d0d0d}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px;margin:24px 0}
-.stat-card{background:#161616;border:1px solid #2a2a2a;border-radius:8px;padding:20px;text-align:center}
-.stat-card .num{font-size:2rem;font-weight:800;color:#c8b040}
-.stat-card .label{font-size:0.8rem;color:#807868;margin-top:4px}
-footer{text-align:center;padding:40px 20px;border-top:1px solid #222;color:#605848;font-size:0.85rem}
-</style>
+<title>Home — DeepSeeking Accountability in RBI</title>
+<link rel="stylesheet" href="/deepseekingrbi/assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-<header>
-<h1>DeepSeeking Accountability<br>in India's Central Bank</h1>
-<p class="subtitle">A comprehensive investigation into RBI's subsidiary network, governance bypasses, revolving doors, and the institutional failures that enabled the .bank.in debacle.</p>
-<p class="meta">Published by CCAgentOrg · July 2026 · Open Source Investigation</p>
-</header>
 
-<nav>
-<a href="#about">About</a>
-<a href="#chapters">Chapters</a>
-<a href="#findings">Key Findings</a>
-<a href="#data">Data</a>
-<a href="#read">Read the Report</a>
-</nav>
-
-<div class="container">
-
-<section id="about">
-<h2>About This Investigation</h2>
-<p>RBI has created a dense network of subsidiaries, departments, and controlled entities — IDRBT, IFTAS, ReBIT, RBIH, NPCI, and its own IT and Fintech departments — that operate critical national payments and banking infrastructure. These entities share personnel, board seats, and institutional culture with <strong>no external accountability</strong>.</p>
-<p>The .bank.in domain portal — the exclusive gateway for all 1,500+ Indian banks to register under their mandated .bank.in domain — was awarded to a private company without competitive tender. It went live without a security audit. When tested, it revealed 33+ unauthenticated API endpoints, 5,576 exposed records, and 1,072 orphan Super Admin accounts.</p>
-<p><strong>This is not a security failure. It is a governance failure that is structural, not accidental.</strong></p>
-</section>
-
-<section id="chapters">
-<h2>Report Chapters</h2>
-<ul>
-<li><strong>Chapter 1: The IKCON Award</strong> — How the .bank.in portal was awarded without tender to IKCON Technologies, and the revolving-door link through ex-IFTAS executive Mahesh Jarati</li>
-<li><strong>Chapter 2: The Revolving Door</strong> — How IDRBT's governance structure normalizes conflicts, from the 3-month placeholder director to Deepak Kumar holding 6+ concurrent board seats</li>
-<li><strong>Chapter 3: Entity Proliferation</strong> — Seven RBI entities with overlapping mandates, opaque legal forms, and no independent oversight</li>
-<li><strong>IFTAS Deep-Dive</strong> — The full story of the IFTAS clawback: built in IDRBT, spun off, then reabsorbed by RBI — the governance template that repeats</li>
-<li><strong>Transparency Matrix</strong> — Every RBI IT arm scored across 9 accountability dimensions: RTI, CAG, board independence, procurement, and more</li>
-<li><strong>Historical Survey</strong> — Complete timeline of RBI's subsidiary creation, from IDRBT (1996) through RBIH (2022)</li>
-</ul>
-</section>
-
-<section id="findings">
-<h2>Key Findings</h2>
-<div class="stats">
-<div class="stat-card"><div class="num">6+</div><div class="label">Concurrent directorships held by IDRBT Director</div></div>
-<div class="stat-card"><div class="num">7</div><div class="label">RBI IT entities with overlapping mandates</div></div>
-<div class="stat-card"><div class="num">0</div><div class="label">Entities with published board minutes</div></div>
-<div class="stat-card"><div class="num">3 mo</div><div class="label">Duration of placeholder IDRBT Director tenure</div></div>
-<div class="stat-card"><div class="num">33+</div><div class="label">Unauthenticated API endpoints in .bank.in portal</div></div>
-<div class="stat-card"><div class="num">2009</div><div class="label">Year the IFTAS clawback template was designed</div></div>
-</div>
-
-<div class="code">
-<strong>Governance Bypass Template</strong><br>
-1. Choose opaque legal form (Society / Section 8 / Pvt Ltd)<br>
-2. Populate with RBI insiders — no independent directors<br>
-3. Create overlapping mandates → diffuse accountability<br>
-4. Circumvent procurement rules → single-source awards<br>
-5. Control information → RTI contested, minutes unpublished<br>
-6. Reabsorb when convenient → IFTAS model
-</div>
-</section>
-
-<section id="data">
-<h2>Annexures & Data</h2>
-<ul>
-<li><strong>Reference Matrix</strong> — Every claim in the report graded by verification status (Confirmed / High Confidence / Allegation / Unverified)</li>
-<li><strong>42 cited sources</strong> — Media reports, government pages, corporate records, MCA filings, and published investigations</li>
-<li><strong>Entity comparison table</strong> — IDRBT, IFTAS, ReBIT, RBIH, NPCI scored across 10 governance dimensions</li>
-<li><strong>Full timeline</strong> — From IDRBT's founding (1996) through the .bank.in vulnerability disclosure (2026)</li>
-</ul>
-</section>
-
-<section id="read">
-<h2>Read the Full Report</h2>
-<p><a class="btn" href="https://github.com/CCAgentOrg/deepseekingrbi/blob/main/book/full-book.md">Read Online (Markdown)</a>
-<a class="btn btn-outline" href="https://github.com/CCAgentOrg/deepseekingrbi">GitHub Repository</a></p>
-<p style="margin-top:12px;font-size:0.85rem;color:#706858">PDF version coming soon. Source data in CSV/JSON format available in the repository.</p>
-</section>
+    <header>
+      <div class="logo">Deep<span>Seeking</span> RBI</div>
+      <nav>
+        <a href="/deepseekingrbi/">Home</a>
+        <a href="/deepseekingrbi/chapters/chapter-1">Chapter 1</a>
+        <a href="/deepseekingrbi/chapters/chapter-2">Chapter 2</a>
+        <a href="/deepseekingrbi/chapters/chapter-3">Chapter 3</a>
+        <a href="/deepseekingrbi/chapters/iftas-deep-dive">IFTAS</a>
+        <a href="/deepseekingrbi/chapters/transparency-matrix">Matrix</a>
+        <a href="/deepseekingrbi/book/full-book">Full Book</a>
+      </nav>
+    </header>
+<div class="hero">
+<hr>
+<p>title: "DeepSeeking Accountability in RBI"</p>
+<p>subtitle: "Governance Failures in India's Central Bank Entity Network"</p>
+<p>author: "CashlessConsumer"</p>
+<p>date: "July 2026"</p>
+<p>titlepage: true</p>
+<p>titlepage-rule-color: "C0002E"</p>
+<p>titlepage-rule-height: 2</p>
+<p>toc-own-page: true</p>
+<p>table-use-row-colors: true</p>
+<p>table-use-banding: true</p>
+<hr>
+<h2 style="margin-top:3rem;">Chapters</h2>
+<ol class="chapter-list" style="margin-top:1rem;">
+<li><span class="title"><a href="chapters/chapter-1">Chapter 1: The IKCON Award</a></span><br><span class="desc">Reconstructing the high-probability governance failure — no-tender award, byelaw amendment allegations, and the IFTAS→IKCON revolving door.</span></li>
+<li><span class="title"><a href="chapters/chapter-2">Chapter 2: The Revolving Door at IDRBT</a></span><br><span class="desc">Deepak Kumar's simultaneous directorships, the 3-month placeholder appointment, and the Governing Council's structural conflicts.</span></li>
+<li><span class="title"><a href="chapters/chapter-3">Chapter 3: Too Many Entities, No Accountability</a></span><br><span class="desc">How seven RBI-controlled entities with overlapping mandates create diffuse responsibility and zero external oversight.</span></li>
+<li><span class="title"><a href="chapters/iftas-deep-dive">Chapter 4: IFTAS — The Clawback That Explains Everything</a></span><br><span class="desc">The 2009 Rangarajan Committee, INFINET/SFMS transfer, 2019 RBI acquisition — the template for asset consolidation.</span></li>
+<li><span class="title"><a href="chapters/transparency-matrix">Chapter 5: Transparency & Accountability Matrix</a></span><br><span class="desc">9-dimension accountability audit of all RBI IT arms across RTI, CAG, legal structure, and board independence.</span></li>
+<li><span class="title"><a href="chapters/historical-survey">Historical Survey of RBI Subsidiaries</a></span><br><span class="desc">Comprehensive historical overview of RBI's entity creation and governance patterns.</span></li>
+</ol>
 
 </div>
-
 <footer>
-<p>DeepSeeking Accountability in RBI — An open investigation by CCAgentOrg</p>
-<p style="margin-top:6px">Licensed under CC BY 4.0. Evidence sources and methodology documented in the repository.</p>
+  <p><strong>DeepSeeking Accountability in RBI</strong> — A governance investigation by <a href="https://cashlessconsumer.in">CashlessConsumer</a> | <a href="https://github.com/CCAgentOrg/deepseekingrbi">GitHub</a></p>
 </footer>
-
 </body>
 </html>
