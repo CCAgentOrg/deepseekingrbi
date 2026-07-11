@@ -189,15 +189,25 @@ def md_to_html(md_text, is_index=False):
 
 def build():
     chapters = [
-        ("index", "DeepSeeking Accountability in RBI", True, None),
-        ("chapters/chapter-1", "Chapter 1: The IKCON Award", False, BASE / "chapters" / "rbi_governance.md"),
-        ("chapters/chapter-2", "Chapter 2: The Revolving Door", False, BASE / "chapters" / "rbi_governance.md"),
-        ("chapters/revolving-door-database", "Revolving Door Database", False, BASE / "chapters" / "revolving-door.md"),
-        ("chapters/chapter-3", "Chapter 3: Too Many Entities, No Accountability", False, BASE / "chapters" / "rbi_governance.md"),
-        ("chapters/iftas-deep-dive", "Chapter 4: IFTAS — The Clawback", False, BASE / "chapters" / "iftas-deep-dive.md"),
-        ("chapters/historical-survey", "Historical Survey", False, BASE / "chapters" / "rbi-subsidiaries-survey.md"),
-        ("chapters/transparency-matrix", "Transparency & Accountability Matrix", False, BASE / "chapters" / "transparency-matrix.md"),
-        ("annexures/reference-matrix", "Reference Matrix", False, BASE / "annexures" / "reference-matrix.md"),
+        ("preface", "Preface: When Journalism Fails", "book/preface.md"),
+        ("chapter-1", "Chapter 1: The IKCON Award", "chapters/rbi_governance.md"),
+        ("chapter-2", "Chapter 2: The Revolving Door at IDRBT", "chapters/rbi_governance.md"),
+        ("revolving-door-database", "Revolving Door Database", "chapters/revolving-door.md"),
+        ("chapter-3", "Chapter 3: Too Many Entities, No Accountability", "chapters/rbi_governance.md"),
+        ("iftas-deep-dive", "Chapter 4: IFTAS Deep-Dive", "chapters/iftas-deep-dive.md"),
+        ("transparency-matrix", "Chapter 5: Transparency & Accountability Matrix", "chapters/transparency-matrix.md"),
+        ("historical-survey", "Historical Survey of RBI Subsidiaries", "chapters/rbi-subsidiaries-survey.md"),
+    ]
+    
+    # Nav links
+    nav_links = [
+        ("/deepseekingrbi/", "Home"),
+        ("/deepseekingrbi/chapters/preface", "Preface"),
+        ("/deepseekingrbi/chapters/chapter-1", "Ch.1 - IKCON"),
+        ("/deepseekingrbi/chapters/revolving-door-database", "Revolving Door DB"),
+        ("/deepseekingrbi/chapters/iftas-deep-dive", "IFTAS"),
+        ("/deepseekingrbi/chapters/transparency-matrix", "Transparency"),
+        ("/deepseekingrbi/book/full-book", "Full Book"),
     ]
     
     # Build main index
@@ -278,9 +288,21 @@ def build():
     # Transparency matrix
     with open(BASE / "chapters" / "transparency-matrix.md") as f:
         matrix = f.read()
-    with open(CHAPTERS_DIR / "transparency-matrix.html", "w") as f:
+    with open(WEBSITE / "chapters" / "transparency-matrix.html", "w") as f:
         f.write(wrap("Transparency Matrix", md_to_html(matrix)))
     print("Written: transparency-matrix.html")
+    
+    # --- Build Preface ---
+    with open(BASE / "book" / "preface.md") as f:
+        preface_text = f.read()
+    # Strip YAML frontmatter if present
+    if preface_text.startswith("---"):
+        parts = preface_text.split("---", 2)
+        if len(parts) >= 3:
+            preface_text = parts[2].strip()
+    with open(CHAPTERS_DIR / "preface.html", "w") as f:
+        f.write(wrap("Preface: When Journalism Fails", md_to_html(preface_text)))
+    print("Written: preface.html")
     
     # Reference matrix annexure
     # Revolving door database
@@ -303,9 +325,9 @@ def build():
             book = f.read()
         full_html = md_to_html(book)
         # Add TOC at top
-        toc = """
-<h2>Table of Contents</h2>
+        toc = """<h2>Table of Contents</h2>
 <ol>
+  <li><a href="#preface-when-journalism-fails">Preface: When Journalism Fails</a></li>
   <li><a href="#chapter-1-the-ikcon-award">Chapter 1: The IKCON Award</a></li>
   <li><a href="#chapter-2-the-revolving-door">Chapter 2: The Revolving Door</a></li>
   <li><a href="#chapter-3-too-many-entities">Chapter 3: Too Many Entities</a></li>
