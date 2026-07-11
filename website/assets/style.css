@@ -47,6 +47,14 @@ header nav a:hover { color: var(--fg); }
 .hero h1 span { color: var(--accent); }
 .hero p { margin-top: 1.5rem; font-size: 1.125rem; color: var(--muted); max-width: 650px; margin-left: auto; margin-right: auto; }
 .hero .meta { margin-top: 1rem; font-size: 0.875rem; color: var(--muted); }
+.hero h2 { 
+  font-size: 1.25rem; 
+  font-weight: 400; 
+  color: var(--accent); 
+  margin-top: 0.5rem; 
+  letter-spacing: -0.01em; 
+}
+.hero h2 strong { color: var(--accent); font-weight: 600; }
 
 /* Stats */
 .stats {

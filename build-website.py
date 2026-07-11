@@ -55,7 +55,18 @@ def wrap(title, body, is_index=False):
 </html>"""
 
 def md_to_html(md_text, is_index=False):
-    """Simple markdown to HTML converter for our restricted markdown."""
+    """Convert a subset of markdown to HTML."""
+    # Strip YAML frontmatter --- ... ---
+    lines = md_text.splitlines()
+    if lines and lines[0].strip() == '---':
+        end_idx = None
+        for i in range(1, len(lines)):
+            if lines[i].strip() == '---':
+                end_idx = i
+                break
+        if end_idx is not None:
+            lines = lines[end_idx + 1:]
+            md_text = '\n'.join(lines).strip()
     lines = md_text.split('\n')
     html = []
     in_table = False
@@ -193,7 +204,13 @@ def build():
     with open(BASE / "book" / "cover.md") as f:
         cover = f.read()
     
-    index_html = md_to_html(cover, is_index=True)
+    index_html = """
+<h1>DeepSeeking Accountability in RBI</h1>
+<h2>Governance Failures in India's Central Bank Entity Network</h2>
+<p><strong>Author:</strong> CashlessConsumer</p>
+<p><strong>Date:</strong> July 2026</p>
+<p>This investigation explores systemic governance failures within India's central bank entity network, examining how overlapping mandates, lack of accountability, and structural conflicts have enabled regulatory capture and weakened oversight mechanisms.</p>
+"""
     
     # Add chapter list
     index_html += """
