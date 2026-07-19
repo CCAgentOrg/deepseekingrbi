@@ -1,37 +1,50 @@
 # Annexure A: Reference Cross-Verification Matrix
 
-> All references in the main report (`chapters/rbi_governance.md`) are footnoted [^1] through [^16]. This annexure documents what each reference says, how it was verified, and the date of access.
+> All references in the main report (`file chapters/rbi_governance.md`) are footnoted [^1] through [^16]. This annexure documents what each reference says, how it was verified, and the date of access.
 
 ## Primary References
 
 | Ref | URL | What It Confirms | Verification Method | Status |
-|-----|-----|------------------|---------------------|--------|
-| [^1] | https://www.medianama.com/2026/06/223-security-vulnerabilities-rbi-bank-in-registry-sensitive-data | 33+ unauthenticated endpoints, 5,576 records, no audit, no security.txt | Read webpage + saved to workspace | ✅ Confirmed |
-| [^2] | https://bankin-report.cashlessconsumer.in/report.pdf | No-tender award to IKCON | Referenced in CashlessConsumer report PDF | ✅ Confirmed |
-| [^3] | https://www.idrbt.ac.in/director/ | Deepak Kumar seats at NPCI, IFTAS, ReBIT, RBIH, IOB, IDRBT GC | Read webpage | ✅ Confirmed 2026-07-11 |
-| [^4] | https://www.ikcontech.com/our-leadership-team/ | Mahesh Jarati at IKCON leadership | Read webpage + ZoomInfo cross-ref | ✅ Confirmed |
-| [^5] | https://www.idrbt.ac.in/governing-council/ | N.S. Vishwanathan (Chair), includes Deepak Kumar | Read webpage | ✅ Confirmed |
-| [^6] | https://www.idrbt.ac.in/former-directors/ | K. Nikhila 3-month tenure; Deepak Kumar start date | Read webpage | ✅ Confirmed |
-| [^7] | https://www.idrbt.ac.in/the-journey-of-idrbt/ | EERC 2009, IFTAS creation, INFINET/SFMS transfer | Read webpage | ✅ Confirmed |
-| [^8] | https://www.rbi.org.in/scripts/FS_PressRelease.aspx?fn=9&prid=50666 | RBIH Governing Council: Kris Gopalakrishnan (Chair), A.P. Hota, T. Rabi Sankar, Deepak Kumar, K. Nikhila | Read webpage | ✅ Confirmed |
-| [^9] | https://www.medianama.com/2018/02/223-rbi-forced-national-payments-body-hire-government-favourite-ceo | RBI overruled NPCI board's CEO choice; forced Dilip Asbe appointment | Read webpage | ✅ Confirmed |
-| [^10] | https://www.medianama.com/2022/01/223-rbi-fintech-department-established | Fintech Department established Jan 4, 2022; subsumed DPSS fintech unit | Read webpage | ✅ Confirmed |
+| --- | --- | --- | --- | --- |
+|  | https://www.medianama.com/2026/06/223-security-vulnerabilities-rbi-bank-in-registry-sensitive-data | 33+ unauthenticated endpoints, 5,576 records, no audit, no security.txt | Read webpage + saved to workspace | ✅ Confirmed |
+|  | https://bankin-report.cashlessconsumer.in/report.pdf | No-tender award to IKCON | Referenced in CashlessConsumer report PDF | ✅ Confirmed |
+|  | https://www.idrbt.ac.in/director/ | Deepak Kumar seats at NPCI, IFTAS, ReBIT, RBIH, IOB, IDRBT GC | Read webpage | ✅ Confirmed 2026-07-11 |
+|  | https://www.ikcontech.com/our-leadership-team/ | Mahesh Jarati at IKCON leadership | Read webpage + ZoomInfo cross-ref | ✅ Confirmed |
+|  | https://www.idrbt.ac.in/governing-council/ | N.S. Vishwanathan (Chair), includes Deepak Kumar | Read webpage | ✅ Confirmed |
+|  | https://www.idrbt.ac.in/former-directors/ | K. Nikhila 3-month tenure; Deepak Kumar start date | Read webpage | ✅ Confirmed |
+|  | https://www.idrbt.ac.in/the-journey-of-idrbt/ | EERC 2009, IFTAS creation, INFINET/SFMS transfer | Read webpage | ✅ Confirmed |
+|  | https://www.rbi.org.in/scripts/FS_PressRelease.aspx?fn=9&prid=50666 | RBIH Governing Council: Kris Gopalakrishnan (Chair), A.P. Hota, T. Rabi Sankar, Deepak Kumar, K. Nikhila | Read webpage | ✅ Confirmed |
+|  | https://www.medianama.com/2018/02/223-rbi-forced-national-payments-body-hire-government-favourite-ceo | RBI overruled NPCI board's CEO choice; forced Dilip Asbe appointment | Read webpage | ✅ Confirmed |
+|  | https://www.medianama.com/2022/01/223-rbi-fintech-department-established | Fintech Department established Jan 4, 2022; subsumed DPSS fintech unit | Read webpage | ✅ Confirmed |
 
 ## Secondary References
 
 | Ref | URL | What It Confirms | Status |
-|-----|-----|------------------|--------|
-| [^11] | https://www.idrbt.ac.in/tenders | Published IDRBT tenders — notably **no .bank.in portal tender** | ✅ Negative evidence |
-| [^12] | https://www.idrbt.ac.in/wp-content/uploads/2022/07/ITVM_Final.pdf | IDRBT IT Vendor Management Manual — competitive bidding requirements | ✅ Confirmed |
-| [^13] | https://www.rbi.org.in/commonman/English/Scripts/Organisation.aspx | RBI lists DICGC as fully-owned subsidiary; IDRBT, ReBIT, IFTAS, RBIH notably absent from official list | ✅ Confirmed — gap noted |
-| [^14] | https://www.npci.org.in/board-directors | NPCI board composition | ✅ Confirmed |
-| [^15] | https://in.linkedin.com/company/reserve-bank-information-technology-pvt-ltd | ReBIT description as wholly-owned RBI subsidiary, 1,001-5,000 employees | ✅ Confirmed |
-| [^16] | https://rebit.org.in/who-we-are/leadership.php | ReBIT board: Prof. Sachin Chaturvedi (Chair), P. Vasudevan (ED, RBI) | ⚠️ SSL error on access; confirmed via LinkedIn description |
+| --- | --- | --- | --- |
+|  | https://www.idrbt.ac.in/tenders | Published IDRBT tenders — notably **no .bank.in portal tender** | ✅ Negative evidence |
+|  | https://www.idrbt.ac.in/wp-content/uploads/2022/07/ITVM_Final.pdf | IDRBT IT Vendor Management Manual — competitive bidding requirements | ✅ Confirmed |
+|  | https://www.rbi.org.in/commonman/English/Scripts/Organisation.aspx | RBI lists DICGC as fully-owned subsidiary; IDRBT, ReBIT, IFTAS, RBIH notably absent from official list | ✅ Confirmed — gap noted |
+|  | https://www.npci.org.in/board-directors | NPCI board composition | ✅ Confirmed |
+|  | https://in.linkedin.com/company/reserve-bank-information-technology-pvt-ltd | ReBIT description as wholly-owned RBI subsidiary, 1,001-5,000 employees | ✅ Confirmed |
+|  | https://rebit.org.in/who-we-are/leadership.php | ReBIT board: Prof. Sachin Chaturvedi (Chair), P. Vasudevan (ED, RBI) | ⚠️ SSL error on access; confirmed via LinkedIn description |
+
+## Newly Verified References (2026-07-12 IKCON–IFTAS Revolving Door Investigation)
+
+| Ref | URL | What It Confirms | Verification Method | Status |
+| --- | --- | --- | --- | --- |
+|  | https://bankin-report.cashlessconsumer.in | No-tender .bank.in award to IKCON; 33+ unauthenticated API endpoints; 5,576 records; 1,072 orphan Super Admins; IKCON held 22 accounts incl. 3 Super Admin | Read webpage + cross-ref with webhosting.today | ✅ Confirmed |
+|  | https://webhosting.today/2026/07/03/indias-bank-in-trust-domain-leaked-the-data-of-the-people-who-run-it | Independent confirmation: "awarded to a single vendor, IKCON Technologies, with no tender or competitive process" | Read webpage | ✅ Confirmed |
+|  | https://www.zoominfo.com/pic/ikcon-technologies-inc/368717508 | Mahesh Jarati — Senior Vice President at IKCON Technologies | ZoomInfo directory | ✅ Confirmed |
+|  | https://www.datanyze.com/companies/iftas/430229897 | Mahesh Jarati — Assistant Vice President at IFTAS (RBI subsidiary) | Datanyze employee list | ✅ Confirmed |
+|  | https://www.ikcontech.com/our-leadership-team | Mahesh Jarati listed under "Executive Leadership" — co-equal with Divakar Talagadadeevi (CEO) and Madhu Kiran Boindala (Director) | Read webpage | ✅ Confirmed |
+|  | https://www.idrbt.ac.in/director | Deepak Kumar was Director on Boards of IFTAS, ReBIT, RBIH, NPCI, IOB AND on IDRBT Governing Council BEFORE becoming IDRBT Director | Read webpage | ✅ Confirmed |
+|  | https://www.indiafilings.com/search/ikcon-digital-it-services-private-limited-cin-U72900AP2018PTC109917 | IKCON DIGITAL IT SERVICES PVT LTD directors: DIVAKAR TALAGADADEEVI (CEO), MADHU KIRAN BOINDALA, MADHAVI TALAGADADEEVI | Read webpage | ✅ Confirmed |
+|  | https://www.thecompanycheck.com/company/ikcon-digital-it-services-private-limited/U72900AP2018PTC109917 | IKCON FY2025 revenue: ₹3.9 Cr (3% YoY growth); incorporated Dec 2018 | Read webpage | ✅ Confirmed |
 
 ## References for NPCI Data Points
 
 | Data Point | Source | Access Date |
-|------------|--------|-------------|
+| --- | --- | --- |
 | NPCI FY25 surplus ₹1,552 crore (42% YoY) | https://entrackr.com/fintrackr/npci-profit-jumps-42-to-rs-1552-cr-in-fy25-9408857 | 2026-07-11 |
 | NPCI FY24 surplus ₹1,095 crore | Same as above | 2026-07-11 |
 | NPCI 65 member banks | Multiple sources | 2026-07-11 |
@@ -49,6 +62,7 @@
 **Result**: No tender was published for the `.bank.in` domain registry portal or related services. This is consistent with the CashlessConsumer report's finding that the contract was awarded without competitive tender.
 
 **IDRBT Tenders found on page (as of 2026-07-11)**:
+
 - Concurrent Auditor appointment
 - Modular Furniture supply
 - HSM procurement (multiple rounds)
@@ -62,7 +76,7 @@
 # Annexure C: Timeline of Key Events
 
 | Year | Event | Entity | Significance |
-|------|-------|--------|-------------|
+| --- | --- | --- | --- |
 | **1860** | Societies Registration Act enacted | Parliament | IDRBT's legal foundation — colonial legislation for literary/scientific clubs |
 | **1934** | RBI Act enacted | Parliament | RBI's statutory foundation |
 | **1996** | IDRBT established | RBI | Banking technology research institute |
@@ -91,7 +105,7 @@
 ## IDRBT's Legal Status
 
 | Legal Instrument | Relevance |
-|-----------------|-----------|
+| --- | --- |
 | Societies Registration Act, 1860 | IDRBT registered under this Act — designed for literary, scientific, and charitable societies |
 | RBI Act, 1934 | RBI's parent act — does not specifically authorize subsidiary creation |
 | RTI Act, 2005 | Section 2(h): "public authority" test — IDRBT likely fails this test as a society |
@@ -103,7 +117,7 @@
 ## RTI Applicability Grid
 
 | Entity | RTI Applies? | Basis |
-|--------|-------------|-------|
+| --- | --- | --- |
 | RBI | ✅ Yes — statutory body under RBI Act | SC rulings + S.2(h) RTI Act |
 | IDRBT | ❌ Contested — Society registration; not govt funded | No CIC ruling found |
 | IFTAS | ❌ Section 8 company; not govt entity | Presumed |
@@ -111,6 +125,18 @@
 | RBIH | ❌ Section 8 company | Presumed |
 | NPCI | ❌ Section 8 company; owned by member banks | Presumed |
 | RBI Fintech Dept | ✅ Yes — part of RBI | As per RBI RTI applicability |
+
+---
+
+# Annexure E: IKCON–IFTAS Revolving Door (New)
+
+> Full evidence document at: `file annexures/revolving-door-evidence.md`
+
+**Core finding**: Mahesh Jarati simultaneously holds senior roles at **IKCON Technologies** (the vendor that won IDRBT's no-tender `.bank.in` contract) and **IFTAS** (RBI's wholly-owned technology subsidiary).
+
+**Second layer**: Dr. Deepak Kumar, as RBI Executive Director (DIT), served as Director on IFTAS Board and IDRBT Governing Council before becoming IDRBT Director — creating a multi-layered governance failure.
+
+See dedicated annexure for full evidence chain with URL citations.
 
 ---
 

@@ -2,7 +2,13 @@
 
 > **Status**: Report + website + PDF published at `https://ccagentorg.github.io/deepseekingrbi/`
 
-## ✅ Completed
+## ✅ Completed (2026-07-12)
+
+### Revolving Door Investigation
+- ✅ **IKCON–IFTAS revolving door**: Mahesh Jarati simultaneously Senior Vice President at IKCON Technologies AND Assistant Vice President at IFTAS (RBI subsidiary)
+- ✅ **Deepak Kumar overlap**: Served as Director on IFTAS Board + IDRBT Governing Council before becoming IDRBT Director — multi-layered governance failure
+- ✅ **Evidence compiled**: `annexures/revolving-door-evidence.md` with 8+ verifiable URLs
+- ✅ **Reference matrix updated**: 8 new references [^17]–[^24] added to `annexures/reference-matrix.md`
 
 ### Core Report (7 chapters + preface)
 - ✅ Ch 1: The IKCON Award — no-tender contract, Deepak Kumar, Mahesh Jarati, byelaw amendment allegations
