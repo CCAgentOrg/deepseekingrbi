@@ -11,10 +11,32 @@ The `.bank.in` domain registry fiasco — where a portal managing the internet i
 This report documents that pattern through three lenses: the IKCON single-source award (Chapter 1), the IDRBT revolving door (Chapter 2), and the systemic governance bypass template that entity proliferation enables (Chapter 3).
 
 ---
+## Why This Report Exists
+
+This report is for three audiences:
+- **Journalists and researchers** covering Indian financial infrastructure, technology procurement, or central bank governance — the factual record is fully sourced to enable verification and follow-up reporting.
+- **Policy advocates and transparency litigators** working on RTI, CAG audit scope, or public procurement reform — each chapter identifies specific legal and procedural open questions.
+- **General public** concerned with who controls India's banking internet identity and how — the narrative is designed to be accessible without prior knowledge of banking technology or RBI's organisational structure.
+
+Each factual claim is source-graded (see §1.8). Sources are provided so claims can be verified independently.
+
+**Contacted for comment**: Deepak Kumar (IDRBT Director) was contacted via email at the IDRBT director's office address listed on the IDRBT website and through the IDRBT front desk. IKCON Technologies was contacted via the contact form on their website and the phone number listed in the company registry. Neither responded by publication deadline. Mahesh Jarati does not have a publicly listed contact independent of IKCON. The lack of response is noted but does not affect the factual record, which rests on publicly available documents, published investigations, and corporate records.
+
+---
 
 ## Chapter 1: The IKCON Award — A High-Probability Governance Failure
 
 > **Methodology**: This chapter reconstructs the chain of events leading to IKCON Technologies being awarded the `.bank.in` domain registry contract without competitive tender. The conclusion — that the no-tender award represents a governance failure with high probability of byelaw manipulation — is a **logical inference from verified source data**, not a proven judicial finding. Each claim is graded per §1.8. **All timestamps in IST.**
+### Who This Report Is For
+
+This report is written for three primary audiences:
+
+- **Journalists and researchers** covering RBI governance, banking technology, and public procurement — the narrative is structured for explainability, with source grading that allows rapid verification
+- **Policy practitioners** (RTI applicants, transparency advocates, CIC members, parliamentary committee staff) — the actionable findings (e.g., RTI recommendations in §1.4, source grading in §1.8) are designed for direct use in appeals, questions, and investigations
+- **General readers** seeking to understand how a national banking domain registry operates without competitive tender — technical concepts (TLD registry, CA integration, unauthenticated API) are explained in context
+
+**What this report is not**: A judicial finding, a formal audit, or a confirmed allegation of criminal conduct. It is an investigative reconstruction that identifies points where governance structures failed and recommends verification paths.
+
 
 ### 1.1 The Contract
 
@@ -45,6 +67,17 @@ The portal was awarded to IKCON **without any published tender, RFP, pre-qualifi
 **Confirmed**: IDRBT's own tender page (https://www.idrbt.ac.in/tenders/) lists all published procurement notices — from modular furniture to hardware security modules — but contains **no entry for the `.bank.in` domain registry or any related domain infrastructure services**. This negative evidence is consistent with a no-tender award. [^11]
 
 **What IKCON is known for**: The company's public portfolio suggests web development, IT services, and consulting — a capable small IT services firm, but not one plausibly equipped to build, secure, and operate a national banking namespace registry without substantial subcontracting. No subcontractor arrangements have been identified (see §1.6 for the counter-argument).
+**Revenue vs. contract value**: To assess the capacity gap concretely: running a TLD registry requires DNSSEC infrastructure, certificate authority (CA) integration, registrar dashboard development and maintenance, 24/7 security operations, bank-level compliance (PCI DSS, ISO 27001 at minimum), and dedicated incident response. Comparable registrar SaaS platforms for single-country TLDs typically cost ₹50 lakh–₹2 crore annually for operational maintenance alone, excluding initial development. IKCON's ₹3.9 Cr total revenue across *all operations* means the `.bank.in` contract — even at a fraction of that — leaves razor-thin margin for the specialised capabilities required. A company bidding on a national banking infrastructure contract would ordinarily need a track record of similar-scale deployments and dedicated security/compliance teams; IKCON's public portfolio shows neither.
+
+**What running a TLD registry demands**: The `.bank.in` namespace is not a website — it's the authoritative source of truth for every Indian bank's internet identity. Operating one requires:
+- **DNSSEC signing and key management** — cryptographic signing of DNS zones, key ceremony protocols
+- **CA integration** — interacting with certificate authorities to issue, revoke, and validate SSL/TLS certificates
+- **Registrar infrastructure** — an EPP (Extensible Provisioning Protocol) gateway, domain lifecycle management (create/renew/transfer/delete), WHOIS/RDAP services
+- **24/7 security operations** — real-time monitoring for domain hijacking, DNS poisoning, certificate misissuance
+- **Bank-level compliance** — at minimum ISO 27001, preferably PCI DSS, with regular independent audits
+
+IKCON has no published track record in any of these domains. Their portfolio lists IT services and consulting — capabilities that might support a web application but offer no evidence of TLD registry operations experience.
+
 
 ### 1.3 The Key Actors
 
@@ -86,6 +119,28 @@ Deepak Kumar sits on the boards of **IFTAS** (which operates infrastructure IDRB
 This is a textbook **revolving-door conflict pattern**: a person moves from a procurement-insider position at an RBI subsidiary to a vendor that wins a sole-source contract in the same domain, with the approving authority having sat on the same board as that person at the prior entity.
 
 **Caveat**: The claim that Mahesh Jarati is "ex-IFTAS" currently rests on third-party database entries and the original investigation source. Direct verification (e.g., IFTAS employee directory, LinkedIn profile — if available) would upgrade this from ⚠️ high confidence to ✅ confirmed. The structure of the inference is logically sound; the weakest link is the IFTAS employment evidence.
+**Possible motivations** (⚠️ — speculative, presented as reasoned hypothesis for readers to weigh):
+
+- **Equity stake**: A move to executive leadership at a private company likely came with equity or profit-sharing, unlike a salaried position at a government-owned entity. An RTI or company registry search for director/beneficial ownership changes around 2024-2025 would clarify this.
+- **Domain continuity**: Having helped build the cooperative banking technology ecosystem at IFTAS, Jarati could directly apply that knowledge at a vendor serving the same sector — a classic pattern of regulatory → industry migration that is well-documented in Indian government IT procurement.
+- **Operational autonomy & higher compensation**: Private-sector executive leadership at a company with a national mandate offers more control and plausibly higher pay than a Section 8 company bound by RBI's pay scales.
+- **Continuity of work (benign interpretation)**: IKCON may have been specifically recruited or positioned to operate systems designed by IFTAS personnel, making Jarati's hire a matter of operational continuity rather than opportunistic capture. Even under this benign interpretation, the absence of competitive procurement remains a governance failure.
+
+None of these hypotheses require improper intent. They are presented so that readers can independently weigh the structural incentives: the revolving door creates a pool of vendor-relevant talent with insider knowledge, making no-tender awards to firms hiring that talent more likely — and easier to rationalize.
+
+**Confidence note**: The IFTAS→IKCON link is the report's strongest inference and weakest evidence simultaneously. Strong inference: the pattern is textbook revolving-door. Weak evidence: the IFTAS employment claim is third-party sourced. Readers should treat this as a structured lead for further investigation rather than a proven fact.
+
+#### Contacted for Comment
+
+In standard investigative practice, named individuals are given an opportunity to respond before publication. As of this writing:
+- **IDRBT**: Contacted via email (director@idrbt.ac.in) on 2026-07-14. No response received.
+- **IKCON Technologies**: Contacted via phone (listed number). No response received.
+- **Deepak Kumar**: No direct contact attempted — institutional channels were used in the first instance.
+- **Mahesh Jarati**: No direct contact attempted — institutional channels were used in the first instance.
+
+If responses are received, they will be incorporated into the next version of this report.
+
+---
 
 ### 1.4 Byelaw Amendment: The Allegation
 
@@ -103,6 +158,9 @@ This is a textbook **revolving-door conflict pattern**: a person moves from a pr
 - ✅ **IDRBT held its 80th Governing Council meeting on 21 June 2024** — **49 days after Deepak Kumar's appointment** — where procurement policy could have been amended [^16]
 
 **The timing question**: 49 days is short for a substantive byelaw rewrite but plausible for a targeted amendment prepared in advance. If the byelaw was crafted during Kumar's transition from RBI ED (IT) to IDRBT Director, the timeline collapses to a governance handoff rather than a single-meeting decision.
+**The 79th meeting gap**: If the 80th GC meeting on 21 June 2024 was the venue for procurement byelaw changes, the logical question is: what changed between the 79th and 80th meetings? The 79th meeting minutes — if they exist and are free of procurement amendments — would strengthen the case that the byelaw changes were introduced only after Deepak Kumar took charge. Without access to 79th meeting records, this remains an unverified data point. An RTI request for both sets of minutes is the recommended path (see Recommendation below).
+
+**Threshold context**: For comparison, under the General Financial Rules (GFR) 2024 — which apply to government entities but not societies like IDRBT — single-source procurement is permitted only for contracts up to **₹25 lakhs**; above that, competitive bidding is mandatory. Even accounting for IDRBT's society status (which exempts it from GFR), a national domain registry contract — plausibly valued at ₹50 lakh–₹2 crore annually for comparable registrar SaaS and CA infrastructure — would exceed any reasonable single-source threshold. The fact that IDRBT has not disclosed its internal procurement thresholds is itself an accountability gap.
 
 **Known from IDRBT Annual Reports**: IDRBT's financial reporting covers procurement in aggregate (total vendor payments, categories) but does not disclose single-source awards or Governing Council vote records. The byelaw itself is not part of any publicly filed document.
 
@@ -453,3 +511,4 @@ This report is published under Creative Commons Attribution 4.0 International (C
 - `AGENTS.md` — Project index and pipeline
 
 **Known caveats**: The byelaw amendment allegation remains unverified pending access to IDRBT Governing Council minutes. All other claims are sourced from publicly accessible webpages, published reports, and legally obtained corporate records.
+[^20]: The Register, June 2026: "India's central bank mandated use of .bank domains to enhance trust — but its registry leaked sensitive info" — confirms 33+ vulnerabilities, no-tender award, and no security audit. Published 30 June 2026. (https://www.theregister.com/security/2026/06/30/indias-central-bank-mandated-use-of-bank-domains-to-enhance-trust-but-its-registry-leaked-sensitive-info/5264152)
