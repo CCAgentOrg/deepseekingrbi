@@ -2,6 +2,26 @@
 
 > **Full Title**: DeepSeeking Accountability in India's Central Bank: Governance Failures in RBI's Entity Network — The `.bank.in` Debacle, the Revolving Door, and the Systemic Bypass Template
 
+## Preface: The Silence After the Breach
+
+In June 2026, Medianama published a story documenting 33+ API vulnerabilities on the `.bank.in` domain registry portal — the system that manages the internet identity of every single bank in India [^1]. The vulnerabilities included unauthenticated access to bank certificates, private keys, and personally identifiable information of authorised signatories. Any one of these flaws could have enabled large-scale phishing, certificate fraud, or domain hijacking of Indian banking infrastructure.
+
+CashlessConsumer took that story and traced the money: who built the portal, how the contract was awarded, and why there was no competitive tender [^2]. The answer — a single-source award to IKCON Technologies, a vendor with no track record in domain registry operations, routed through an entity whose director simultaneously sits on the awarding body's board — raised questions that went far beyond a security lapse.
+
+We reached out to the institutions involved. Deepak Kumar (IDRBT Director) was contacted via the IDRBT director's office email and through the IDRBT front desk. IKCON Technologies was contacted via their website form and the phone number in the company registry. Mahesh Jarati, the IKCON CEO named in the corporate filings, has no publicly listed contact independent of IKCON. None of them responded.
+
+No public statement was issued by IDRBT. No press release from RBI. No parliamentary question. No CAG audit notice. No comment from the Ministry of Finance. The institution that regulates India's entire banking sector — the custodian of monetary stability, the guardian of public trust in financial infrastructure — simply had nothing to say about a system that exposed every Indian bank's internet identity to compromise.
+
+That silence is the subject of this report.
+
+*DeepSeeking Accountability in RBI* is not an investigation of a single procurement irregularity. It is an examination of a structural pattern: an institution that has created a dense network of subsidiaries, controlled entities, and departments operating critical national infrastructure with minimal external oversight, no competitive procurement culture, and a revolving door that moves personnel between regulator and regulated entities without scrutiny. The `.bank.in` breach is not the anomaly — it is the expression of a governance system that has evolved, over decades, to be accountable to no one.
+
+This report is our attempt to break that silence — by building a public, verifiable, source-graded factual record that journalists can report from, litigators can cite, and the public can read.
+
+**Status**: All named parties were offered the opportunity to comment. None did. This report publishes the factual record anyway, because the public interest in understanding how India's banking internet identity is governed does not depend on the cooperation of those who govern it.
+
+---
+
 ## Executive Summary
 
 The Reserve Bank of India controls a dense network of at least **seven distinct entities** — IDRBT (Institute for Development and Research in Banking Technology), IFTAS (Indian Financial Technology and Allied Services), ReBIT (Reserve Bank Information Technology), RBIH (RBI Innovation Hub), NPCI (National Payments Corporation of India), and its own IT and Fintech Departments — that operate critical national payments, banking, and cybersecurity infrastructure. These entities share personnel, board seats, and institutional culture with **no external accountability mechanism**.
@@ -224,20 +244,20 @@ RBI, IDRBT, or IKCON may offer the following defenses. Each is addressed in adva
 
 ### 1.8 Source Grading (Revised)
 
-| Claim | Grade | Evidence |
-|-------|-------|----------|
-| Mahesh Jarati at IKCON | ✅ **Confirmed** | IKCON leadership page [^4]; ZoomInfo [^14] |
-| Mahesh Jarati ex-IFTAS | ⚠️ **High confidence** | Source claim + Datanyze/ZoomInfo cross-refs [^15]; IFTAS contextual fit |
-| No tender for IKCON contract | ✅ **Confirmed** | CashlessConsumer .bank.in report [^2]; IDRBT tender page absence [^11]; webhosting.today confirmation [^19] |
-| Deepak Kumar = approving authority | ✅ **Confirmed** | IDRBT Director procurement authority per role definition [^3] |
-| Byelaw amendment for vendor thresholds | 🔴 **Allegation only** | Single source; no public document found; 21 June 2024 GC meeting is a possible venue but not evidence [^16] |
-| Rate rigging / undisclosed advantage | 🔴 **Unverified** | Requires pre/post contract pricing data not in public domain |
-| IKCON FY2025 revenue insufficient for mandate | ⚠️ **High confidence** | ₹3.9 Cr revenue verified via company registry [^18]; circumstantial evidence; subcontracting possibility not ruled out |
-| 33+ unauthenticated API endpoints exposed | ✅ **Confirmed** | Medianama investigation [^1]; technical verification |
-| Portal live 13+ months before discovery | ✅ **Confirmed** | Medianama disclosure timeline [^1] |
-| IDRBT Security Policy claims pre-deployment audit | ✅ **Claim confirmed; ⚠️ evidence contradicts** | Security Policy text vs. 33+ vulnerabilities | |
-| IDRBT society form exempts from CAG audit | ✅ **Confirmed** | Legal analysis of AP Societies Act; CAG Act 1971 |
-| IDRBT contested RTI disclosure | ✅ **Confirmed** | Multiple RTI applicant reports; no CIC adjudication found |
+| Claim | Grade | Evidence | What Would Upgrade to ✅ |
+|-------|-------|----------|-------------------------|
+| Mahesh Jarati at IKCON | ✅ **Confirmed** | IKCON leadership page [^4]; ZoomInfo [^14] | Already confirmed |
+| Mahesh Jarati ex-IFTAS | ⚠️ **High confidence** | Source claim + Datanyze/ZoomInfo cross-refs [^15]; IFTAS contextual fit | IFTAS employee directory published; LinkedIn profile confirmation; independent journalist verification |
+| No tender for IKCON contract | ✅ **Confirmed** | CashlessConsumer .bank.in report [^2]; IDRBT tender page absence [^11]; webhosting.today confirmation [^19] | Already confirmed |
+| Deepak Kumar = approving authority | ✅ **Confirmed** | IDRBT Director procurement authority per role definition [^3] | Already confirmed |
+| Byelaw amendment for vendor thresholds | 🔴 **Allegation only** | Single source; no public document found; 21 June 2024 GC meeting is a possible venue but not evidence [^16] | IDRBT Governing Council minutes published; RTI disclosure of byelaw amendment resolution; witness testimony with documentary corroboration |
+| Rate rigging / undisclosed advantage | 🔴 **Unverified** | Requires pre/post contract pricing data not in public domain | IKCON and IDRBT financial disclosure under RTI; comparable tender pricing from similar government domain registry contracts |
+| IKCON FY2025 revenue insufficient for mandate | ⚠️ **High confidence** | ₹3.9 Cr revenue verified via company registry [^18]; circumstantial evidence; subcontracting possibility not ruled out | IKCON contract value disclosed; proof of subcontracting to qualified domain registry operator |
+| 33+ unauthenticated API endpoints exposed | ✅ **Confirmed** | Medianama investigation [^1]; technical verification | Already confirmed |
+| Portal live 13+ months before discovery | ✅ **Confirmed** | Medianama disclosure timeline [^1] | Already confirmed |
+| IDRBT Security Policy claims pre-deployment audit | ✅ **Claim confirmed; ⚠️ evidence contradicts** | Security Policy text vs. 33+ vulnerabilities | Already confirmed |
+| IDRBT society form exempts from CAG audit | ✅ **Confirmed** | Legal analysis of AP Societies Act; CAG Act 1971 | Already confirmed |
+| IDRBT contested RTI disclosure | ✅ **Confirmed** | Multiple RTI applicant reports; no CIC adjudication found | Already confirmed |
 
 ---
 
@@ -272,38 +292,7 @@ The 1-day gap between their tenures proves the appointment was **pre-determined*
 
 ### 2.3 The Revolving Door Network Map
 
-```
-                      ┌──────────────────────┐
-                      │    RBI (Central)     │
-                      │  Deepak Kumar (ex-ED,│
-                      │   IT Department)     │
-                      └──────────┬───────────┘
-                                 │
-            ┌────────────────────┼──────────────────────┐
-            │                    │                      │
-            ▼                    ▼                      ▼
-   ┌────────────────┐  ┌──────────────────┐  ┌──────────────────┐
-   │  NPCI Board    │  │ IFTAS Board      │  │ ReBIT Board      │
-   │  (Deepak K)    │  │ (Deepak K)       │  │ (Deepak K)       │
-   └────────────────┘  └──────────────────┘  └──────────────────┘
-            ▲                    ▲                      ▲
-            │                    │                      │
-            └────────────────────┼──────────────────────┘
-                                 │
-                      ┌──────────┴──────────┐
-                      │     Deepak Kumar    │
-                      │  (Director, IDRBT)  │
-                      └──────────┬──────────┘
-                                 │
-            ┌────────────────────┼──────────────────────┐
-            │                    │                      │
-            ▼                    ▼                      ▼
-   ┌────────────────┐  ┌──────────────────┐  ┌──────────────────┐
-   │ IDRBT Governing│  │ RBIH Governing   │  │ Indian Overseas  │
-   │ Council (he's  │  │ Council (member)  │  │ Bank (board)     │
-   │ a member)      │  │                  │  │                  │
-   └────────────────┘  └──────────────────┘  └──────────────────┘
-```
+![Revolving Door Network Diagram — Deepak Kumar's concurrent directorships and entity control](/assets/revolving-door-network.png)
 
 Deepak Kumar simultaneously:
 - **Oversees IDRBT** (as Director)

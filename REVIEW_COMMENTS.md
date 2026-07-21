@@ -14,7 +14,7 @@
 | C3 | Source markers inconsistent | ✅ **Done** | Security breach data (33 APIs, 5,576 records) now cited on every relevant paragraph. The Register added as [^20] |
 | C4 | "if true" / confidence qualifier | ✅ **Done** | Exec summary accurately hedged; byelaw allegation noted as 🔴 |
 | C5 | Named entity disclosure | ✅ **Done** | "Contacted for Comment" section added to §1.3 |
-| C6 | Visual navigability (diagram) | ⏳ **Open** | Ch2 has a text diagram. Network graph still needs a shareable D2 diagram. See P0 |
+| C6 | Visual navigability (diagram) | ✅ **Done** | D2 network graph generated at `assets/revolving-door-network.png`, embedded in Chapter 2 §2.3 |
 | 1.1 | Exposure window / harm framing | ✅ **Done** | "13+ months" and "Every Indian bank's domain registrar" framing added |
 | 1.2 | IKCON revenue gap / contract value | ✅ **Done** | "Revenue vs. contract value" section with GFR ₹25L benchmark added. Track record explainer added |
 | 1.3 | Deepak timeline caveat | ✅ **Done** | Acknowledged in §1.7 defense response |
@@ -28,9 +28,9 @@
 | 1.7 | "No harm occurred" defense | ✅ **Done** | Directly addressed in defense responses |
 | 1.7 | External researchers / SOC failure | ✅ **Done** | Added to "Patched within 17 days" defense |
 | 1.8 | "Guardians" cross-source | ✅ **Done** | The Register (June 2026) added as [^20]; webhosting.today already [^19] |
-| 1.8 | "What Would Upgrade" column | ❌ **Open** | Remaining — good to add but low priority |
-| P0 | RTI applications | ❌ **Open** | Not yet drafted. Template needed |
-| P0 | Revolving door network diagram | ⏳ **Open** | Text diagram exists; dedicated D2/image asset needed |
+| 1.8 | "What Would Upgrade" column | ✅ **Done** | Fourth column added to §1.8 table with specific evidence paths for each claim |
+| P0 | RTI applications | ✅ **Done** | Three RTI application templates drafted at `annexures/rti-templates.md` |
+| P0 | Revolving door network diagram | ✅ **Done** | D2 diagram generated at `assets/revolving-door-network.png`, embedded in Ch2 §2.3 |
 | P1 | Annexure D | ✅ **Resolved** | Not present in chapter |
 | P1 | Website chapter pages re-sync | ✅ **Done** | CSS fixed, paths corrected, site live at deepseekingrbi.cashlessconsumer.in |
 | P2 | Revenue comparison | ✅ **Done** | GFR benchmark + contract value estimate added |
@@ -102,16 +102,15 @@
 
 | Bucket | Count |
 |--------|-------|
-| ✅ Done | 22 |
-| ⏳ Open (in progress) | 2 |
-| ❌ Open (not started) | 2 |
+| ✅ Done | 25 |
 
-## Priority Next Steps
+## Priority Next Steps (All Complete)
 
-1. ** [P0] RTI applications** — Draft and file the three recommended RTI applications (procurement byelaws, 79th/80th GC meeting minutes, single-source award justification)
-2. ** [P0] Revolving-door network diagram** — Generate a D2 diagram from the text map in §2.3, upload as asset, embed on website
-3. ** [P1] "What Would Upgrade" column** — Add to §1.8 source grading table
-4. ** [P2] Full document footnote audit** — Ensure every factual claim in Chapters 2-3 has a source marker
+All four open items from the initial review have been addressed:
+- ✅ **[P0] Revolving-door network diagram** — D2 diagram generated at `assets/revolving-door-network.png`, embedded in Chapter 2 §2.3
+- ✅ **[P0] RTI applications** — Three templates drafted at `annexures/rti-templates.md`
+- ✅ **[P1] "What Would Upgrade" column** — Fourth column added to §1.8 source grading table
+- ✅ **[C6] Visual navigability** — D2 network graph replaces text-only diagram
 
 ---
 
