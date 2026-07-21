@@ -9,7 +9,7 @@ WEBSITE = BASE / "website"
 CHAPTERS_DIR = WEBSITE / "chapters"
 ANNEXURES_DIR = WEBSITE / "annexures"
 ASSETS_DIR = WEBSITE / "assets"
-CSS_HREF = "/deepseekingrbi/assets/style.css"
+CSS_HREF = "/assets/style.css"
 
 # Ensure dirs
 for d in [CHAPTERS_DIR, ANNEXURES_DIR, ASSETS_DIR]:
@@ -23,16 +23,16 @@ def wrap(title, body, is_index=False):
     <header>
       <div class="logo">Deep<span>Seeking</span> RBI</div>
       <nav>
-        <a href="/deepseekingrbi/">Home</a>
-        <a href="/deepseekingrbi/chapters/chapter-1">Ch.1 - IKCON</a>
-        <a href="/deepseekingrbi/chapters/chapter-2">Ch.2 - Revolving Door</a>
-        <a href="/deepseekingrbi/chapters/twentyfive-year-pattern">25-Yr Timeline</a>
-        <a href="/deepseekingrbi/chapters/revolving-door-database">Revolving Door DB</a>
-        <a href="/deepseekingrbi/chapters/chapter-3">Ch.3 - Proliferation</a>
-        <a href="/deepseekingrbi/chapters/iftas-deep-dive">IFTAS</a>
-        <a href="/deepseekingrbi/chapters/transparency-matrix">Transparency</a>
-        <a href="/deepseekingrbi/book/full-book">Full Book</a>
-        <a href="/deepseekingrbi/DeepSeeking_RBI_Report.pdf">PDF</a>
+        <a href="/">Home</a>
+        <a href="/chapters/chapter-1">Ch.1 - IKCON</a>
+        <a href="/chapters/chapter-2">Ch.2 - Revolving Door</a>
+        <a href="/chapters/twentyfive-year-pattern">25-Yr Timeline</a>
+        <a href="/chapters/revolving-door-database">Revolving Door DB</a>
+        <a href="/chapters/chapter-3">Ch.3 - Proliferation</a>
+        <a href="/chapters/iftas-deep-dive">IFTAS</a>
+        <a href="/chapters/transparency-matrix">Transparency</a>
+        <a href="/book/full-book">Full Book</a>
+        <a href="/DeepSeeking_RBI_Report.pdf">PDF</a>
       </nav>
     </header>"""
     return f"""<!DOCTYPE html>
@@ -203,13 +203,13 @@ def build():
     
     # Nav links
     nav_links = [
-        ("/deepseekingrbi/", "Home"),
-        ("/deepseekingrbi/chapters/preface", "Preface"),
-        ("/deepseekingrbi/chapters/chapter-1", "Ch.1 - IKCON"),
-        ("/deepseekingrbi/chapters/revolving-door-database", "Revolving Door DB"),
-        ("/deepseekingrbi/chapters/iftas-deep-dive", "IFTAS"),
-        ("/deepseekingrbi/chapters/transparency-matrix", "Transparency"),
-        ("/deepseekingrbi/book/full-book", "Full Book"),
+        ("/", "Home"),
+        ("/chapters/preface", "Preface"),
+        ("/chapters/chapter-1", "Ch.1 - IKCON"),
+        ("/chapters/revolving-door-database", "Revolving Door DB"),
+        ("/chapters/iftas-deep-dive", "IFTAS"),
+        ("/chapters/transparency-matrix", "Transparency"),
+        ("/book/full-book", "Full Book"),
     ]
     
     # Build main index
@@ -241,7 +241,7 @@ def build():
     
     index_html += """
 <h2 style="margin-top:3rem;">Download</h2>
-<p><a href="/deepseekingrbi/DeepSeeking_RBI_Report.pdf" class="download-btn">📄 Download Full Report (PDF, 63 pages)</a></p>
+<p><a href="/DeepSeeking_RBI_Report.pdf" class="download-btn">📄 Download Full Report (PDF, 63 pages)</a></p>
 """
     
     with open(WEBSITE / "index.html", "w") as f:
